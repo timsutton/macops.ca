@@ -9,7 +9,7 @@ wordpress_id: 1016
 tags:
 - Adobe
 - adobe_prtk
-- Creative Cloud
+- creative-cloud
 - packaging
 ---
 <!--

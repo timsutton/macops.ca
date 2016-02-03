@@ -8,7 +8,7 @@ title: Adobe Creative Cloud Deployment - Overview
 wordpress_id: 980
 tags:
 - Adobe
-- Creative Cloud
+- creative-cloud
 - Licensing
 ---
 

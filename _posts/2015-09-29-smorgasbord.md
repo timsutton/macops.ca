@@ -38,7 +38,7 @@ Here you can find the various links to tools, posts, etc. that appear in the ses
   * [Adobe CS5 Update Dependencies](https://github.com/munki/munki/wiki/Adobe%20CS5%20Update%20Dependencies) - Munki Wiki
   * [make-adobe-cc-license-pkg](https://github.com/timsutton/make-adobe-cc-license-pkg)
   * [Fixing Adobe CCP's Broken Uninstallers](https://osxdominion.wordpress.com/2015/04/23/fixing-adobe-ccps-broken-uninstallers) - Nick McSpadden
-  * [Adobe Creative Cloud posts on macops.ca](https://macops.ca/tag/Creative Cloud)
+  * [Adobe Creative Cloud posts on macops.ca](https://macops.ca/tag/creative-cloud)
 
 ### Packaging
 

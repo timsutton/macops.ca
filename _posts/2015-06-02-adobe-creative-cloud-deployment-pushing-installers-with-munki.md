@@ -8,7 +8,7 @@ title: Adobe Creative Cloud Deployment - Pushing Installers with Munki
 wordpress_id: 1085
 tags:
 - aamporter
-- Creative Cloud
+- creative-cloud
 - munki
 ---
 

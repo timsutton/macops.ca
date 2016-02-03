@@ -7,7 +7,7 @@ slug: adobe-creative-cloud-licensing-and-deployment-managing-licenses-with-munki
 title: Adobe Creative Cloud Deployment - Managing Licenses with Munki
 wordpress_id: 1019
 tags:
-- Creative Cloud
+- creative-cloud
 - munki
 ---
 
