@@ -48,3 +48,6 @@ DEPENDENCIES
   jekyll
   jekyll-gist
   redcarpet
+
+BUNDLED WITH
+   1.11.2
