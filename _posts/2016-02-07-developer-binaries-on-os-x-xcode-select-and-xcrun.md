@@ -21,7 +21,11 @@ The developer tool binaries actually ship with OS X as shim binaries, which use 
 
 What's really going on when we call these shim binaries?
 
-Behind the scenes, if I run `/usr/bin/git`, this shim binary calls a function in `libxcselect.dylib` called `xcselect_invoke_xcrun()`, which will call the [`xcrun`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcrun.1.html) tool _within that developer directory_ with a set of arguments to specify the binary's full path. (If this isn't yet enough indirection for you, `/usr/bin/xcrun` itself is a shim, and so `libxcselect.dylib` contains code to detect whether the executed `xcrun` is a shim).
+Behind the scenes, if I run `/usr/bin/git`, this shim binary loads functions in `libxcselect.dylib` that can locate the path to the real binary, depending on how the system has been configured. One part of this process is to check whether this path contains `usr/lib/libxcrun.dylib`, and the [`xcrun`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcrun.1.html) tool, in which case it will invoke `xcrun` to run the binary.
+
+The `xcrun` binary seems to be present in developer directories included with Xcode but not the CLI tools, and it's also able to query information about SDKs and their included tools. `libxcrun.dylib` is a hard requirement for a developer dir to be validated, however. Try for yourself: temporarily rename `usr/lib/libxcrun.dylib` within a developer dir like `/Library/Developer/CommandLineTools` and then try to `xcode-select --switch` to it. `xcode-select` will error that it's an invalid directory.
+
+(If all of this isn't yet enough indirection for you, `/usr/bin/xcrun` itself is a shim, and so `libxcselect.dylib` contains code to detect whether the executed `xcrun` is a shim. Look for the `__xcrun_shim` segment in the `__DATA` section output by the command: `pagestuff /usr/bin/xcrun -a`.)
 
 
 ### Developer directories
@@ -57,6 +61,6 @@ Below are what I've deduced its order of checks to be. Remember that this checki
 1. If neither of the above are set, and the path `/Applications/Xcode.app/Contents/Developer` is present, this is used.
 1. If no Xcode path as above are set, but CLI tools are installed in `/Library/Developer/CommandLineTools`, these are selected.
 
-When a directory switch is attempted, `libxcselect` will perform other sanity checks such as ensuring that at least a `usr/bin/xcrun` binary exists within the directory.
+A [disassembly](http://www.hopperapp.com) of `/usr/lib/libxcselect.dylib` also suggests that there is an additional check performed, similar to the symlink check, if a file is present at `/usr/share/xcode-select/xcode_dir_path`. This path is protected by [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection), however, so it's likely only used internally for development.
 
-A [disassembly](http://www.hopperapp.com) of `libxcselect` also suggests that there is an additional check performed, similar to the symlink check, if a file is present at `/usr/share/xcode-select/xcode_dir_path`. This path is protected by [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection), however.
+As mentioned earlier, when a directory switch is attempted, `libxcselect` will perform a sanity check to at least ensure that the `usr/lib/libxcrun.dylib` library exists within the directory.
