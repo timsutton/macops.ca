@@ -4,6 +4,7 @@ title: Talks
 
 Here are direct links to documentations from sessions at previous conferences and meetups:
 
+  * Managing the User Experience ([MacDeployment 2016](http://macdeployment.ca)) - [Slides (PDF)](http://macdeployment.ca/sites/macdeployment.ca/files/macdeploy_2016.pdf), [Link post]({% post_url 2016-06-16-macdeploy2016 %})
   * MacSysAdmin Tools Smörgåsbord ([MacSysAdmin 2015](http://docs.macsysadmin.se/2015/2015doc.html)) - [Video](http://docs.macsysadmin.se/2015/video/Day1Session4.mp4), [Slides (PDF)](http://docs.macsysadmin.se/2015/pdf/Day1Session4.pdf), [Link post]({% post_url 2015-09-29-smorgasbord %})
   * Python for Mac Admins ([MacDevOpsYVR 2015](http://www.macdevops.ca/)) - [Video](http://macdevops.ca/MDO2015/tim/Default.html), [Link post]({% post_url 2015-06-18-python-for-mac-admins-session-resources %})
   * Why Mac Sysadmins Love Python ([Montréal-Python 52](http://montrealpython.org/)) - [Video](https://www.youtube.com/watch?v=G2kSD3MU5uM)
