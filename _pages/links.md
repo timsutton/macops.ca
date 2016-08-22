@@ -7,13 +7,13 @@ This is a somewhat-current list of other great resources for Mac Admin topics:
 <h2>Blogs:</h2>
 
 <ul>
-<li><a href="http://managingosx.wordpress.com">Managing OS X</a> (Greg Neagle)</li>
-<li><a href="http://derflounder.wordpress.com">Der Flounder</a> (Rich Trouton)</li>
+<li><a href="https://managingosx.wordpress.com">Managing OS X</a> (Greg Neagle)</li>
+<li><a href="https://derflounder.wordpress.com">Der Flounder</a> (Rich Trouton)</li>
 <li><a href="http://krypted.com">Krypted</a> (Charles Edge)</li>
-<li><a href="http://grahamgilbert.com">Graham Gilbert</a></li>
+<li><a href="https://grahamgilbert.com">Graham Gilbert</a></li>
 <li><a href="http://garylarizza.com">Shit Gary Says</a> (Gary Larizza)</li>
 <li><a href="http://enterprisemac.bruienne.com">Enterprise Mac</a> (Pepijn Bruienne)</li>
-<li><a href="http://yourmacguy.wordpress.com">Your Mac Guy</a> (Peter Bukowinski)</li>
+<li><a href="https://yourmacguy.wordpress.com">Your Mac Guy</a> (Peter Bukowinski)</li>
 <li><a href="http://www.radiotope.com">Radiotope</a> (Ed Marczak)</li>
 <li><a href="http://www.jaharmi.com">Jaharmi's Irreality</a> (Jeremy Reichman)</li>
 <li><a href="http://swytechnotes.wordpress.com">SWY's Technical Notes</a> (Steve Yuroff)</li>
@@ -26,7 +26,7 @@ This is a somewhat-current list of other great resources for Mac Admin topics:
 <li><a href="https://osxdominion.wordpress.com">OS X Dominion</a> (Nick McSpadden)</li>
 <li><a href="https://grpugh.wordpress.com">On the Subject of Macs</a> (Graham R Pugh)</li>
 <li><a href="https://onemoreadmin.wordpress.com">One More Admin</a> (Erik Gomez)</li>
-<li><a href="http://groob.io">groob</a> (Victor Vrantchan)</li>
+<li><a href="https://groob.io">groob</a> (Victor Vrantchan)</li>
 <li><a href="https://macmule.com/">Macmule</a> (Ben Toms)</li>
 <li><a href="http://www.richard-purves.com/">Richard Purves</a></li>
 <li><a href="http://maclovin.org/">Mac Lovin'</a> (François Levaux)</li>
@@ -38,21 +38,23 @@ This is a somewhat-current list of other great resources for Mac Admin topics:
 
 <ul>
 <li><a href="http://macsysadmin.se">MacSysAdmin</a></li>
-<li><a href="http://www.mactech.com/conference">MacTech</a></li>
-<li><a href="http://macadmins.psu.edu/conference">Penn State MacAdmins</a></li>
+<li><a href="http://conference.mactech.com/">MacTech</a></li>
+<li><a href="http://macadmins.psu.edu/">Penn State MacAdmins</a></li>
 <li><a href="http://www.macdevops.ca/">MacDevOpsYVR</a></li>
 <li><a href="http://macdeployment.ca">MacDeployment</a></li>
 <li><a href="http://www.macad.uk">Mac Admin and Developer Conference UK</a></li>
+<li><a href="http://auc.edu.au/xworld/about/">X World</a></li>
 </ul>
 
 <h2>Organizations / Aggregates / Meetups / Mailing lists:</h2>
 
 <ul>
 <li><a href="https://macadmins.slack.com">MacAdmins Slack team</a></li>
-<li><a href="http://afp548.com">AFP 548</a></li>
+<li><a href="http://www.macmeetups.com/">Mac Meetups (site aggregating other meetups)</a></li>
+<li><a href="https://www.afp548.com/">AFP 548</a></li>
 <li><a href="http://macbrained.org">Macbrained</a></li>
 <li><a href="http://www.macenterprise.org">MacEnterprise</a></li>
-<li><a href="http://www.macadminmonthly.com">MacAdminMonthly</a></li>
+<li><a href="http://www.macadminmonthly.org/">MacAdminMonthly</a></li>
 </ul>
 
 <h2>Other resources:</h2>
