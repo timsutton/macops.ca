@@ -4,6 +4,7 @@ title: Talks
 
 Here are direct links to documentations from sessions at previous conferences and meetups:
 
+  * Tools and Process for Streamlining Mac Deployment ([MacSysAdmin 2016](http://docs.macsysadmin.se/2016/2016doc.html)) - [Video](http://docs.macsysadmin.se/2016/video/Day4Session1.mp4), [Slides (PDF)](http://docs.macsysadmin.se/2016/pdf/Day4Session1.pdf), [Link post]({% post_url 2016-10-07-macsysadmin2016 %})
   * Jenkins CI for MacDevOps ([MacDevOps:YVR 2016](http://macdevops.ca)) - [Video](http://macdevops.ca/MDO2016/jenkins/Default.html), [Slides (PDF)](https://dl.dropboxusercontent.com/u/429559/Jenkins%20CI%20for%20MacDevOps.pdf), [Link post]({% post_url 2016-06-20-macdevopsyvr-2016 %})
   * Managing the User Experience ([MacDeployment 2016](http://macdeployment.ca)) - [Slides (PDF)](http://macdeployment.ca/sites/macdeployment.ca/files/macdeploy_2016.pdf), [Link post]({% post_url 2016-06-16-macdeploy2016 %})
   * MacSysAdmin Tools Smörgåsbord ([MacSysAdmin 2015](http://docs.macsysadmin.se/2015/2015doc.html)) - [Video](http://docs.macsysadmin.se/2015/video/Day1Session4.mp4), [Slides (PDF)](http://docs.macsysadmin.se/2015/pdf/Day1Session4.pdf), [Link post]({% post_url 2015-09-29-smorgasbord %})
