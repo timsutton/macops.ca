@@ -32,6 +32,7 @@ This is a somewhat-current list of other great resources for Mac Admin topics:
 <li><a href="http://maclovin.org/">Mac Lovin'</a> (François Levaux)</li>
 <li><a href="https://clburlison.com/">Just Another Tech Blog</a> (Clayton Burlison)</li>
 <li><a href="http://technology.siprep.org/">St. Ignatius College Prep Tech Blog</a> (Alan Siu)</li>
+<li><a href="https://www.rderewianko.com/">Ross Derewianko</a></li>
 </ul>
 
 <h2>Conferences:</h2>
