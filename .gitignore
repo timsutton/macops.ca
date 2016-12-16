@@ -2,4 +2,4 @@ _site
 .DS_Store
 .gem/
 .bundle/
-
+_drafts
