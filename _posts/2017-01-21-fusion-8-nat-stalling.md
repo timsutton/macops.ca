@@ -20,7 +20,7 @@ My strategy was to just stick with Fusion 8.0.2 for a while. But as time went on
 
 I've found that I can take either the binary from 8.0.2, or conveniently enough, VMware is currently [hosting](https://blogs.vmware.com/teamfusion/2016/01/workaround-of-nat-port-forwarding-issue-in-fusion-8-1.html) a drop-in replacement `vmnet-natd` binary that was provided as a workaround for a NAT-related port forwarding bug that surfaced for a while in the 8.1.x timeframe. So you can actually follow VMware's instructions on that workaround post to resolve this issue. That binary isn't identical to the one from 8.0.2, and is likely newer.
 
-Here's a [custom Homebrew Cask](https://gist.github.com/timsutton/71d19da07f7e4a091c37fedcbd5cb9a1#file-vmware-fusion-rb-L43-L51) file with an additional patching step for fetching and installing this old binary as part of a newer installation.
+Here's a [custom Homebrew Cask](https://gist.github.com/timsutton/71d19da07f7e4a091c37fedcbd5cb9a1) file with an additional patching step for fetching and installing this old binary as part of a newer installation.
 
 Of course, upgrading VMware Fusion means replacing this binary every time, and it's also quite possible that the newer verisons of `vmnet-natd` contain other fixes or improvements that you're discarding by not using the current version. And, it's a hack.
 
