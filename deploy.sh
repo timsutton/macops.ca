@@ -1,7 +1,6 @@
 #!/bin/sh -e
 
-# build the site
-bundle exec jekyll build --trace
+# Deploy the site using rsync.
 
 # rsync params:
 # - specify a private key
@@ -11,7 +10,7 @@ bundle exec jekyll build --trace
 # - prefer checksums to compare sync rather than timestamps
 # - delete items on destination that don't exist on source
 rsync -rtvz \
-    -e 'ssh -i ~/.ssh/id_rsa_macops_ca_deploy' \
+    -e 'ssh -i ./id_rsa_macops_ca_deploy' \
     --checksum \
     --delete \
     _site/ \

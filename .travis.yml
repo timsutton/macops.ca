@@ -4,6 +4,10 @@ before_install:
 branches:
   only: master
 cache: bundler
+deploy:
+  provider: script
+  script: ./deploy.sh
 language: ruby
 rvm:
   - 2.2
+script: bundle exec jekyll build --trace
