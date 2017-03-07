@@ -1,3 +1,9 @@
 before_install:
 - openssl aes-256-cbc -K $encrypted_e5e02ce89fac_key -iv $encrypted_e5e02ce89fac_iv
   -in id_rsa_macops_ca_deploy.enc -out id_rsa_macops_ca_deploy -d
+branches:
+  only: master
+cache: bundler
+language: ruby
+rvm:
+  - 2.2
