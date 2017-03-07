@@ -8,6 +8,4 @@ deploy:
   provider: script
   script: ./deploy.sh
 language: ruby
-rvm:
-  - 2.2
 script: bundle exec jekyll build --trace
