@@ -10,7 +10,6 @@
 # - prefer checksums to compare sync rather than timestamps
 # - delete items on destination that don't exist on source
 rsync -rtvz \
-    -e 'ssh -i /tmp/deploy_rsa' \
     --checksum \
     --delete \
     _site/ \
