@@ -31,7 +31,7 @@ jekyll serve --force_polling
 
 ## Deploying
 
-Currently just doing this locally via `./deploy.sh`.
+Deploying this via rsync on [Travis CI](https://travis-ci.org/).
 
 ## Other components used
 
