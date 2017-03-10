@@ -8,7 +8,7 @@ Source for macops.ca. Built with Jekyll and the [Kiko](https://kiko.gfjaru.com/)
 
 Switch to a modern Ruby:
 
-`chruby 2.3.3`
+`chruby 2.4.0`
 
 Install gems to an isolated directory:
 
