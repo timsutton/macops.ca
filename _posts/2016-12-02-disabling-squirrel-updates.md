@@ -4,6 +4,8 @@ layout: post
 title: Squirrel Updates, the Slack Mac App and User Environment Variables
 ---
 
+**Update**: The workaround described below for disabling Squirrel updates _specifically for Slack_ no longer works, as Slack's Mac app as of 2.5.1 includes code to [actively](https://github.com/Squirrel/Squirrel.Mac/issues/192#issuecomment-285703068) disable it. If you disagree (as I do), you can use the Slack [/feedback command](https://get.slack.help/hc/en-us/articles/201259356-Slash-commands) to send feedback to the developers.
+
 Today in the [Macadmins Slack](https://macadmins.herokuapp.com/) #autopkg channel, my friend [Ben](https://twitter.com/fuzzylogiq) mentioned he was seeing this update prompt for the non-Mac-App-Store version of Slack. It probably looked something like this:
 
 {% include image.html
