@@ -1,11 +1,13 @@
 before_install:
 - openssl aes-256-cbc -K $encrypted_e5e02ce89fac_key -iv $encrypted_e5e02ce89fac_iv
   -in id_rsa_macops_ca_deploy.enc -out id_rsa_macops_ca_deploy -d
-branches:
-  only: master
 cache: bundler
-deploy:
-  provider: script
-  script: ./deploy.sh
+# deploy:
+#   provider: script
+#   script: ./deploy.sh
 language: ruby
-script: bundle exec jekyll build --trace
+script:
+  - gem env
+  - bundle env
+  - bundle config
+  - bundle exec jekyll build --trace
