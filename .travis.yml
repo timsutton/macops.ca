@@ -5,6 +5,8 @@ cache: bundler
 deploy:
   provider: script
   script: ./deploy.sh
+  on:
+    branch: master
 language: ruby
 script:
   - bundle exec jekyll build --trace
