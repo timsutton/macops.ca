@@ -34,6 +34,7 @@ This is a somewhat-current list of other great resources for Mac Admin topics:
 <li><a href="http://technology.siprep.org/">St. Ignatius College Prep Tech Blog</a> (Alan Siu)</li>
 <li><a href="https://www.rderewianko.com/">Ross Derewianko</a></li>
 <li><a href="https://babodee.wordpress.com/">Babo D's Corner</a> (Balmes Pavlov)</li>
+<li><a href="http://smithjw.me/">James' Ubiquitous Blog</a> (James Smith)</li>
 </ul>
 
 <h2>Conferences:</h2>
