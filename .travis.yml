@@ -15,6 +15,6 @@ deploy:
     branch: master
 language: ruby
 rvm:
-  - 2.4.0
+  - 2.4.1
 script:
   - bundle exec jekyll build --trace
