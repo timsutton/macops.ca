@@ -15,7 +15,6 @@ This is a somewhat-current list of other great resources for Mac Admin topics:
 <li><a href="http://enterprisemac.bruienne.com">Enterprise Mac</a> (Pepijn Bruienne)</li>
 <li><a href="https://yourmacguy.wordpress.com">Your Mac Guy</a> (Peter Bukowinski)</li>
 <li><a href="http://www.radiotope.com">Radiotope</a> (Ed Marczak)</li>
-<li><a href="http://www.jaharmi.com">Jaharmi's Irreality</a> (Jeremy Reichman)</li>
 <li><a href="http://swytechnotes.wordpress.com">SWY's Technical Notes</a> (Steve Yuroff)</li>
 <li><a href="https://foigus.wordpress.com">foigus' Notes</a> (Patrick Fergus)</li>
 <li><a href="http://wranglingmacs.blogspot.com">wrangling macs</a> (Karl Kuehn)</li>
