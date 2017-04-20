@@ -4,6 +4,7 @@ title: Talks
 
 Here are direct links to documentations from sessions at previous conferences and meetups:
 
+  * Adobe Creative Cloud: Lost in Translation ([Univ of Utah, MacAdmins Meeting April 2017](https://apple.lib.utah.edu/april-2017-mac-managers-meeting/)) - [Video](https://stream.lib.utah.edu/index.php?c=details&id=12884), [Slides (PDF)](http://www.scl.utah.edu/pdf/mac_mgrs/20170419_mm_files/2017.04.19_mm_adobecc.pdf), [Link post]({% post_url 2017-04-20-mac-mgrs-april-2017 %})
   * Advanced Mac Software Deployment and Configuration: Just Make It Work! ([Mac Admins & Developers UK 2017](http://www.macad.uk)) - [Video](https://www.youtube.com/watch?v=pD6Pze1zQ4c), [Slides (PDF)](images/2017/02/MacADUK2017_TimSutton.pdf), [Link post]({% post_url 2017-02-07-macaduk2017 %})
   * Tools and Process for Streamlining Mac Deployment ([MacSysAdmin 2016](http://docs.macsysadmin.se/2016/2016doc.html)) - [Video](http://docs.macsysadmin.se/2016/video/Day4Session1.mp4), [Slides (PDF)](http://docs.macsysadmin.se/2016/pdf/Day4Session1.pdf), [Link post]({% post_url 2016-10-07-macsysadmin2016 %})
   * Jenkins CI for MacDevOps ([MacDevOps:YVR 2016](http://macdevops.ca)) - [Video](http://cdn.macdevops.ca/MDO2016/jenkins/Default.html), [Slides (PDF)](images/2016/06/MacDevOpsYVR2016.pdf), [Link post]({% post_url 2016-06-20-macdevopsyvr-2016 %})
