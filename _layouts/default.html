@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="alternate" type="application/json" title="{{ site.name }} JSON Feed" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
   <style type="text/css">
