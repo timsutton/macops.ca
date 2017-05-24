@@ -49,6 +49,7 @@ exclude:
   - Gemfile*
   - README*
   - vendor
+  - '*.enc'
 
 # Rake tasks
 post:
