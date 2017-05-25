@@ -50,6 +50,10 @@ exclude:
   - README*
   - vendor
   - '*.enc'
+  # skip feed.json for now because it seems to take precedence over feed.xml
+  # in the Apache pass-through URL rewrite config, offering it to feed-readers
+  # expecting an RSS feed at /feed
+  - feed.json
 
 # Rake tasks
 post:
