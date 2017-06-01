@@ -4,6 +4,8 @@ layout: post
 title: Stalling HTTP(S) downloads with VMware Fusion 8 and NAT
 ---
 
+**Update**: This issue has been resolved in the VMware Fusion 8.5.7 update, [released in May 2017](http://pubs.vmware.com/Release_Notes/en/fusion/8/fusion-857-release-notes.html). The workaround below is no longer necessary. The release notes linked above don't sufficiently scope the issue, however: it's not only `git clone` commands which stall, it's any HTTPS transfer. `git clone` just happened to be an easy way to reproduce this with large repositories such as [CocoaPods](http://blog.cocoapods.org/Master-Spec-Repo-Rate-Limiting-Post-Mortem/).
+
 VMware Fusion 8 is a great general-purpose virtual machine hypervisor which shares a lot of the same infrastructure as the VMware ESX platform, and is my preferred choice for running macOS guest VMs (on Apple hardware). It has great support for NetBoot, FileVault 2, and some additional advanced configuration support useful for testing Mac-based infrastructure projects.
 
 I often use macOS guest VMs with Fusion in situations where large amounts of data need to be downloaded from either a local network or the Internet. Testing software installations using [Munki](https://github.com/munki/munki) is one of them, but so is testing CI worker bootstraps which involve things like running Apple's `softwareupdate` binary, or initializing a [CocoaPods](https://cocoapods.org/) installation, which involves a [very large initial Git clone](http://blog.cocoapods.org/Master-Spec-Repo-Rate-Limiting-Post-Mortem/) over HTTPS.
