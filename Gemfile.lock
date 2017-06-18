@@ -8,7 +8,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.4.3)
+    jekyll (3.4.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -38,8 +38,8 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
     rb-fsevent (0.9.8)
-    rb-inotify (0.9.8)
-      ffi (>= 0.5.0)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
     redcarpet (3.4.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
@@ -57,4 +57,4 @@ DEPENDENCIES
   redcarpet
 
 BUNDLED WITH
-   1.14.6
+   1.15.1
