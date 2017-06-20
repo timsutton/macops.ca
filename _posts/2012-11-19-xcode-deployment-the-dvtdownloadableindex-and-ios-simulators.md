@@ -156,7 +156,7 @@ We've got the most basic flat package structure possible: a Bom, PackageInfo and
 ./Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk 40775 0/80
 ```
 
-Those './'s at the beginning look like relative paths, don't they? They are. If we'd install this package now using the `installer` command and specify a root OS volume like `/`, we'd wind up with this Platforms folder at ther root of our drive, which is not what we want. If we dig around inside the Xcode app bundle, we can find where the more current iOS Simulator is stored, at:
+Those './'s at the beginning look like relative paths, don't they? They are. If we'd install this package now using the `installer` command and specify a root OS volume like `/`, we'd wind up with this Platforms folder at the root of our drive, which is not what we want. If we dig around inside the Xcode app bundle, we can find where the more current iOS Simulator is stored, at:
 
 ```
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone Simulator.app
