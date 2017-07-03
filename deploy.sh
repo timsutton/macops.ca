@@ -1,7 +1,5 @@
 #!/bin/sh -e
 
-# TODO: fix this since migrating to Hugo
-
 # Deploy the site using rsync.
 
 # rsync params:
