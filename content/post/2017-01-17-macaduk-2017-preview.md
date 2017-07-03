@@ -2,6 +2,7 @@
 comments: true
 date: 2017-01-17T00:00:00Z
 title: Preview to Mac Software Deployment Session at MacADUK 2017
+slug: macaduk-2017-preview
 ---
 
 This year I'm very excited to be attending and speaking at the [Mac Admin & Developer Conference UK 2017](http://www.macad.uk/) in London, with a session called ["Advanced Mac Software Deployment and Configuration: Just Make It Work!"](http://www.macad.uk/speaker/tim-sutton-advanced-mac-software-deployment-configuration/)

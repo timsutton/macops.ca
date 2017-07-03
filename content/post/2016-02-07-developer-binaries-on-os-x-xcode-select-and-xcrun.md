@@ -3,7 +3,6 @@ date: 2016-02-07T00:00:00Z
 tags:
 - Xcode
 title: Developer Binaries on OS X, xcode-select and xcrun
-
 ---
 
 `xcode-select` is a command-line utility on OS X that facilitates switching between different sets of command line developer tools provided by Apple. Its primary function is to be a "master switch" for the actual paths resolved when invoking the commands for tools like `make`, `xcodebuild`, `otool`, etc.

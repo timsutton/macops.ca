@@ -2,7 +2,7 @@
 comments: true
 date: 2016-12-02T00:00:00Z
 title: Squirrel Updates, the Slack Mac App and User Environment Variables
-
+slug: disabling-squirrel-updates
 ---
 
 **Update**: The workaround described below for disabling Squirrel updates _specifically for Slack_ no longer works, as Slack's Mac app as of 2.5.1 includes code to [actively](https://github.com/Squirrel/Squirrel.Mac/issues/192#issuecomment-285703068) disable it. If you disagree (as I do), you can use the Slack [/feedback command](https://get.slack.help/hc/en-us/articles/201259356-Slash-commands) to send feedback to the developers.

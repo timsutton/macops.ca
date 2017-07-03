@@ -2,7 +2,7 @@
 comments: true
 date: 2016-12-16T00:00:00Z
 title: macOS Installers on the Mac App Store Now Show Date Updated
-
+slug: macos-installers-update-field
 ---
 
 Since 2011, it's been possible to obtain the OS installer from the Mac App Store, and one that's been updated to the latest point version of macOS / OS X. For example, after OS X El Capitan was released on September 30, 2015, it was possible over the subsequent months to download an installer that was updated for versions 10.11.1, 10.11.2, and so on.
