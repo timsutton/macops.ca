@@ -1,48 +1,21 @@
 # macops.ca
 
-Source for macops.ca. Built with Jekyll and the [Kiko](https://kiko.gfjaru.com/) theme. Kiko theme content is licensed MIT.
+Source for macops.ca. Built with Hugo and a modified [Kiko](https://kiko.gfjaru.com/) theme. Kiko theme content is licensed MIT.
+
+## Dependencies
+
+Install the latest [Hugo](http://gohugo.io/) and [Pygments](http://pygments.org/). Hugo just needs `pygmentize` to be available in the current path.
 
 ## Running
 
-### Local
+Just build it with `hugo`:
 
-Switch to a modern Ruby:
+`hugo`
 
-`chruby 2.4.0`
+Or preview it locally:
 
-Install gems to an isolated directory:
-
-`bundle install --path .gem`
-
-Run Jekyll to preview the site:
-
-`bundle exec jekyll serve`
-
-### Via Docker
-
-```
-docker run --rm --label=jekyll \
---volume=$(pwd):/srv/jekyll \
--it \
--p 127.0.0.1:4000:4000 \
-jekyll/jekyll \
-jekyll serve --force_polling
-```
+`hugo server`
 
 ## Deploying
 
-Deploying this via rsync on [Travis CI](https://travis-ci.org/).
-
-## Other components used
-
-### [Rakefile boilerplate](https://github.com/gummesson/jekyll-rake-boilerplate)
-
-Not yet modified enough to be usable.
-
-### [jekyll-pages-directory](https://github.com/bbakersmith/jekyll-pages-directory)
-
-Used to move a few post.md files out of the project root.
-
-### jekyll-tags plugin
-
-Can't remember where this came from - it's been modified to not generate index.html files within tag directories, but rather straight index.html files. This caused me to need to do a bit of additional work in my VirtualHost file, though, so may revert back to how it worked before and instead adjust the Vhost to automatically add an index.html to a URL if the file doesn't exist. I think a rule like this is simpler to do in Nginx than Apache :(
+Deploying this to my webhost using `rsync` on [Travis CI](https://travis-ci.org/timsutton/macops.ca). Deploy manually using `scripts/deploy.sh`.
