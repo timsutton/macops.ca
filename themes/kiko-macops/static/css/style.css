@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inconsolata;
-  src: url("/static/fonts/inconsolata.woff2") format("woff2"), url("/static/fonts/inconsolata.woff") format("woff"); }
+  src: url("/fonts/inconsolata.woff2") format("woff2"), url("/fonts/inconsolata.woff") format("woff"); }
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
