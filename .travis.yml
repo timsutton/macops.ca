@@ -6,15 +6,21 @@ before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy_rsa
 - ssh-add /tmp/deploy_rsa
-cache: bundler
 deploy:
   provider: script
   script: ./deploy.sh
   skip_cleanup: true
   on:
     branch: master
-language: ruby
-rvm:
-  - 2.4.1
+env:
+  - HUGO_VERSION=0.24.1
+  - PYGMENTS_VERSION=2.2.0
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb
+  - sudo dpkg -i hugo_${HUGO_VERSION}_Linux-64bit.deb
+  - pip install pygments==${PYGMENTS_VERSION}
+language: python
+python:
+  - "3.6"
 script:
-  - bundle exec jekyll build --trace
+  - hugo -v
