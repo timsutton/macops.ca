@@ -7,4 +7,4 @@ My name is Tim Sutton - Mac Operations is a technical blog dedicated to topics i
 
 Some projects and tools I've worked on can be found on [GitHub](https://github.com/timsutton), and conference session videos/slides [here](/talks). I'm on [Twitter](https://twitter.com/tvsutton) and [e-mail](mailto:tim@synthist.net).
 
-Thanks to the software that powers this blog: [Hugo](https://gohugo.io) and the [Kiko](https://github.com/gfjaru/Kiko) Jekyll theme, which I ported to Hugo. The source can be found [here](https://github.com/timsutton/macops.ca).
+Thanks to the software that powers this blog: [Hugo](https://gohugo.io) and the [Kiko](https://github.com/gfjaru/Kiko) Jekyll theme, which has been modified and ported to Hugo. The source for this site can be found [here](https://github.com/timsutton/macops.ca).
