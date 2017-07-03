@@ -1,0 +1,4 @@
+# This is a dummy translation file to squelch warnings, as suggested
+# in https://discourse.gohugo.io/t/monolingual-site/6300/2
+wordcount:
+  other: "{{ .WordCount }} words"

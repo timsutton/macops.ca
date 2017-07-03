@@ -1,0 +1,15 @@
+baseurl: https://macops.ca/
+disqusshortname: macops
+metadataformat: yaml
+params:
+  author:
+    name: Tim Sutton
+permalinks:
+  post: /:slug
+  page: /:slug
+pygmentscodefences: true
+pygmentsuseclasses: true
+theme: kiko-macops
+taxonomies:
+  tag: tags
+title: Mac Operations

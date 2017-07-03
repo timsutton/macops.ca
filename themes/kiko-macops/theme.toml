@@ -1,0 +1,14 @@
+name = "Kiko Macops"
+description = "Tim's Jekyll Kiko theme ported to Hugo"
+license = "MIT"
+tags = ["blog"]
+min_version = 0.23
+
+[author]
+    name = "timsutton"
+    homepage = "https://macops.ca"
+
+# If Porting existing theme
+[original]
+    author =  "gfjaru"
+    repo = "https://github.com/gfjaru/Kiko"

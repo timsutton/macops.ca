@@ -1,5 +1,7 @@
 #!/bin/sh -e
 
+# TODO: fix this since migrating to Hugo
+
 # Deploy the site using rsync.
 
 # rsync params:
@@ -12,5 +14,5 @@
 rsync -rtvz \
     --checksum \
     --delete \
-    _site/ \
+    public/ \
     macops-ca-deploy@macops.ca:/var/www/macops.ca/

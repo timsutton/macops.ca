@@ -1,0 +1,10 @@
+<!-- 'imgcap' shortcode named inspired by https://github.com/parsiya/Hugo-Shortcodes, actual code adopted from this theme's previous 'include' implementation from Jekyll -->
+
+<div class="image-wrapper" >
+  <a href="{{ if .Get "url" }}{{ .Get "url" }}{{ else }}{{ .Get "img" }}{{ end }}" title="{{ .Get "title" }}" target="_blank">
+    <img src="{{ .Get "img" }}" alt="{{ .Get "title" }}"/>
+  </a>
+  {{ if .Get "caption" }}
+    <p class="image-caption">{{ .Get "caption" }}</p>
+  {{ end }}
+</div>
