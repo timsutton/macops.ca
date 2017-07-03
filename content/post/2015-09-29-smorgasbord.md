@@ -67,26 +67,14 @@ Here you can find the various links to tools, posts, etc. that appear in the ses
 
 #### winclone-image-builder
   * [winclone-image-builder](https://github.com/timsutton/winclone-image-builder)
-  * [Winclone Pro](https://twocanoes.com/products/mac/winclone) - Two Canoes
+  * [Winclone Pro](https://twocanoes.com/products/mac/winclone/) - Two Canoes
   * [packer-windows templates](https://github.com/joefitzgerald/packer-windows) - Joe Fitzgerald
   * [packer-windows templates with WinRM](https://github.com/dylanmei/packer-windows-templates) - Dylan Meissner
 
 #### Brigadier
 
-
-
-
-
-
-    
   * [Brigadier](https://github.com/timsutton/brigadier)
-
-
-
-
 
 #### Lots more!
 
-
-
-[python-macadmin-tools](https://github.com/timsutton/python-macadmin-tools)
+  * [python-macadmin-tools](https://github.com/timsutton/python-macadmin-tools)
