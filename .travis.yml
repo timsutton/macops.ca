@@ -12,7 +12,8 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
+dist: trusty
 install: ./scripts/install.sh
 language: python
-python: "3.6"
 script: ./scripts/build.sh
+sudo: required
