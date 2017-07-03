@@ -67,7 +67,9 @@ I've had to implement this solution for Office 2011 before, but it seems ridicul
 
 Oh, but this is not even the only issue with the Office 2016 installer. There is also an auto-update daemon that Microsoft adds to the LaunchServices database using an undocumented `-register` flag to the `lsregister` binary. This command is also run using `sudo -u $USER`, but _only if_ not doing a command line install. It looks like the install script is trying to do the right thing by not doing some user-specific tasks (this lsregister command performs a change to the LaunchServices database for the user running the command) during a CLI install, however if this auto-update daemon is not manually registered in LaunchServices, the user will see a confusing dialog the first time they open any Office application and it checks for updates (as it does by default):
 
-[![Screenshot 2015-08-25 15.58.25](images/2015/08/Screenshot-2015-08-25-15.58.25.png)](images/2015/08/Screenshot-2015-08-25-15.58.25.png)
+{{< imgcap
+    img="/images/2015/08/Screenshot-2015-08-25-15.58.25.png"
+>}}
 
 This is another roadblock that a sysadmin will definitely want to avoid, and yet what is the solution? The postinstall script for the com.microsoft.package.Microsoft_AutoUpdate.app component package contains this in the postinstall script:
 
