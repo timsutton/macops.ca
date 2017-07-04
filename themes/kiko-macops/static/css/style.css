@@ -164,6 +164,11 @@ figure {
   margin-left: 20px;
   margin-right: 20px; }
 
+aside header {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px; }

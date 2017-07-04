@@ -8,6 +8,26 @@
   </div>
   {{ .Content }}
 
+<!-- Thank you https://discourse.gohugo.io/t/template-logic-for-related-posts/2947/3 -->
+{{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+  {{ $.Scratch.Set "has_related" true }}
+{{ end }}
+
+{{ if $.Scratch.Get "has_related" }}
+  <hr>
+  <aside>
+    <header>Related posts</header>
+    <ul>
+      {{ $num_to_show := .Site.Params.related_content_limit | default 4 }}
+      {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> – <span class="list-post-date"><time>{{ .Date.Format "January, 2006" }}</time></span>
+        </li>
+      {{ end }}
+    </ul>
+  </aside>
+{{ end }}
+
 </div>
 
 {{ partial "disqus.html" . }}
