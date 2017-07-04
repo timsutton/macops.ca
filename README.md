@@ -1,6 +1,6 @@
 # macops.ca
 
-Source for macops.ca. Built with Hugo and a modified [Kiko](https://github.com/gfjaru/Kiko) theme. Kiko theme content is licensed MIT.
+Source for [macops.ca](https://macops.ca). Built with Hugo and a modified [Kiko](https://github.com/gfjaru/Kiko) theme. Kiko theme content is licensed MIT.
 
 ## Dependencies
 
