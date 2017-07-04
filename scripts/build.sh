@@ -1,3 +1,3 @@
 #!/bin/sh -e
 
-hugo -v
+./hugo -v

@@ -16,4 +16,4 @@ dist: trusty
 install: ./scripts/install.sh
 language: python
 script: ./scripts/build.sh
-sudo: required
+sudo: false
