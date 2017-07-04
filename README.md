@@ -4,7 +4,7 @@ Source for macops.ca. Built with Hugo and a modified [Kiko](https://github.com/g
 
 ## Dependencies
 
-Install the latest [Hugo](http://gohugo.io/) and [Pygments](http://pygments.org/). Hugo just needs `pygmentize` to be available in the current path.
+Install the latest [Hugo](https://gohugo.io/) and [Pygments](http://pygments.org/). Hugo just needs `pygmentize` to be available in the current path.
 
 ## Running
 
