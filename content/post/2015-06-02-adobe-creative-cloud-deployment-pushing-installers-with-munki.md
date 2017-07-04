@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-06-02T20:23:23Z
 slug: adobe-creative-cloud-deployment-pushing-installers-with-munki
 tags:

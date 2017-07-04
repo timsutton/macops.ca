@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-05-27T05:42:23Z
 slug: adobe-creative-cloud-licensing-and-deployment
 tags:

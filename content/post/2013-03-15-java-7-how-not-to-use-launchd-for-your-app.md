@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-03-15T22:03:06Z
 slug: java-7-how-not-to-use-launchd-for-your-app
 tags:

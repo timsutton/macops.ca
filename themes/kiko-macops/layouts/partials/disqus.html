@@ -1,4 +1,12 @@
+<!-- If `comments` is set to false via site 'params' config
+or front matter, then don't render any of this. Front matter
+will always override a site config, though, so to disable
+them globally, remove the DisqusShortname site config item -->
+
+{{ $comments_enabled := .Param "comments" | default true }}
+
 {{ if .Site.DisqusShortname }}
+  {{ if $comments_enabled }}
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -17,5 +25,5 @@
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+  {{ end }}
 {{ end }}

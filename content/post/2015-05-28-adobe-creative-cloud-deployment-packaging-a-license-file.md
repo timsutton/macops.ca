@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-05-28T14:45:36Z
 slug: adobe-creative-cloud-deployment-packaging-a-license-file
 tags:

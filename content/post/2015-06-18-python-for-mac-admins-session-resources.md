@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-06-18T00:19:53Z
 slug: python-for-mac-admins-session-resources
 tags:

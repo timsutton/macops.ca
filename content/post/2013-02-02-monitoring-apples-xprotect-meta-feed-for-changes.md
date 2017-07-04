@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-02-02T20:22:30Z
 slug: monitoring-apples-xprotect-meta-feed-for-changes
 tags:

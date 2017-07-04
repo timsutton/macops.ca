@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2012-11-19T13:45:19Z
 slug: xcode-deployment-the-dvtdownloadableindex-and-ios-simulators
 tags:

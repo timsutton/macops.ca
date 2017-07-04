@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-05-29T16:11:09Z
 slug: adobe-creative-cloud-licensing-and-deployment-managing-licenses-with-munki
 tags:

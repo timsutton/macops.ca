@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2016-12-16T00:00:00Z
 title: macOS Installers on the Mac App Store Now Show Date Updated
 slug: macos-installers-update-field

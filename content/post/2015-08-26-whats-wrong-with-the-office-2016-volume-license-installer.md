@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-08-26T14:19:19Z
 slug: whats-wrong-with-the-office-2016-volume-license-installer
 tags:

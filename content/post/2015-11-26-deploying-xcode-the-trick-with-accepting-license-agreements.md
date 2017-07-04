@@ -1,6 +1,5 @@
 ---
 author: tim
-comments: true
 date: 2015-11-26T20:44:54Z
 slug: deploying-xcode-the-trick-with-accepting-license-agreements
 tags:

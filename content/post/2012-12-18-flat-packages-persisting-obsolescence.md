@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2012-12-18T00:22:20Z
 slug: flat-packages-persisting-obsolescence
 tags:

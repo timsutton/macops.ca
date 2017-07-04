@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-05-05T18:19:58Z
 slug: reclaiming-inodes-from-jenkins
 tags:

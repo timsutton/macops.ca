@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-09-19T19:17:22Z
 slug: deploying-xcode-and-cli-tools-whats-new-in-xcode-5
 tags:

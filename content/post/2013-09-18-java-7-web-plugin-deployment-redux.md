@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-09-18T13:56:02Z
 slug: java-7-web-plugin-deployment-redux
 tags:

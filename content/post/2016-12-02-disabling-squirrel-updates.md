@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2016-12-02T00:00:00Z
 title: Squirrel Updates, the Slack Mac App and User Environment Variables
 slug: disabling-squirrel-updates

@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2012-12-07T02:19:03Z
 slug: customizing-hardware-model-filters-for-netboot
 tags:

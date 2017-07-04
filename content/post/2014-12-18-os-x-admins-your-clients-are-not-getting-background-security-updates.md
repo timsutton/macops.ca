@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2014-12-18T16:50:48Z
 slug: os-x-admins-your-clients-are-not-getting-background-security-updates
 tags:

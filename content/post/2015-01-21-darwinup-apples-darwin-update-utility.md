@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-01-21T19:46:53Z
 slug: darwinup-apples-darwin-update-utility
 tags:

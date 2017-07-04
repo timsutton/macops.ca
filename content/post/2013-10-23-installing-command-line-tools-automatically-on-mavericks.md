@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-10-23T13:01:01Z
 slug: installing-command-line-tools-automatically-on-mavericks
 tags:

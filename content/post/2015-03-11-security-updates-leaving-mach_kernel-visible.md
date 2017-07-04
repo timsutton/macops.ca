@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-03-11T14:33:42Z
 slug: security-updates-leaving-mach_kernel-visible
 title: Security Updates leaving mach_kernel visible

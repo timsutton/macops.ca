@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-01-19T20:15:54Z
 slug: rolling-os-x-packages-with-fpm-and-homebrew
 tags:

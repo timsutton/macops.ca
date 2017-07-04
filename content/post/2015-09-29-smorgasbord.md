@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-09-29T10:59:30Z
 slug: smorgasbord
 tags:

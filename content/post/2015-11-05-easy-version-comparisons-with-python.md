@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-11-05T18:52:11Z
 slug: easy-version-comparisons-with-python
 tags:

@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-08-06T21:03:56Z
 slug: disabling-first-run-dialogs-in-office-2016-for-mac
 tags:

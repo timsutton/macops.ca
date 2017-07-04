@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-08-16T13:45:10Z
 slug: configuring-colorsync-display-profiles-using-the-command-line
 tags:

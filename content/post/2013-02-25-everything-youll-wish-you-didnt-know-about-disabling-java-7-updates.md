@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-02-25T01:11:38Z
 slug: everything-youll-wish-you-didnt-know-about-disabling-java-7-updates
 tags:

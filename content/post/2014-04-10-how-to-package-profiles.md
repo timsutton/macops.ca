@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2014-04-10T20:51:38Z
 slug: how-to-package-profiles
 tags:

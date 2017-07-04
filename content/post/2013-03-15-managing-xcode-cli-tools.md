@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-03-15T14:54:43Z
 slug: managing-xcode-cli-tools
 tags:

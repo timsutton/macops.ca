@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2017-01-17T00:00:00Z
 title: Preview to Mac Software Deployment Session at MacADUK 2017
 slug: macaduk-2017-preview

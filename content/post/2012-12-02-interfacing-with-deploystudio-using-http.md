@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2012-12-02T23:51:22Z
 slug: interfacing-with-deploystudio-using-http
 tags:

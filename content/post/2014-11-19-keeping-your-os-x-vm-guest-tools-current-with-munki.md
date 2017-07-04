@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2014-11-19T16:36:31Z
 slug: keeping-your-os-x-vm-guest-tools-current-with-munki
 tags:

@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-05-06T13:08:28Z
 slug: upcoming-conference-talks-for-2015
 tags:

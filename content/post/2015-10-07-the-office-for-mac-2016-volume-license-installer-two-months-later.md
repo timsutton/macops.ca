@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2015-10-07T15:24:37Z
 slug: the-office-for-mac-2016-volume-license-installer-two-months-later
 tags:

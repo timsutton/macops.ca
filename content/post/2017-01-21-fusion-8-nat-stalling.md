@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2017-01-21T00:00:00Z
 title: Stalling HTTP(S) downloads with VMware Fusion 8 and NAT
 slug: fusion-8-nat-stalling

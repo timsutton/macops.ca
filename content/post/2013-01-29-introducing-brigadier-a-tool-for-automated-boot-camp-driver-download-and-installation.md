@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2013-01-29T20:15:10Z
 slug: introducing-brigadier-a-tool-for-automated-boot-camp-driver-download-and-installation
 tags:
