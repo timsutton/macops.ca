@@ -1,0 +1,16 @@
+talks:
+  - conf: Mac Admins & Developers UK
+    title: "Advanced Mac Software Deployment and Configuration: Just Make It Work!"
+    related_slug: macaduk2017
+    slides_link: /images/2017/02/MacADUK2017_TimSutton.pdf
+    video_link: https://www.youtube.com/watch?v=pD6Pze1zQ4c
+    website: http://www.macad.uk
+    year: 2017
+
+  - conf: MacSysAdmin
+    title: "Tools and Process for Streamlining Mac Deployment"
+    related_slug: macsysadmin2016
+    slides_link: http://docs.macsysadmin.se/2016/pdf/Day4Session1.pdf
+    video_link: http://docs.macsysadmin.se/2016/video/Day4Session1.mp4
+    website: http://docs.macsysadmin.se/2016/2016doc.html
+    year: 2016

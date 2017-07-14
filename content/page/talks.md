@@ -1,4 +1,5 @@
 ---
+layout: talks
 title: Talks
 slug: talks
 ---
