@@ -14,7 +14,7 @@ deploy:
   on:
     branch: master
 dist: trusty
-install: ./scripts/install.sh
+install: travis_wait ./scripts/install.sh
 language: python
 script: ./scripts/build.sh
 sudo: false
