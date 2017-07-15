@@ -2,13 +2,15 @@
 
 <div class="content page">
 
-  <p>Here are direct links to documentations from sessions at previous conferences and meetups:</p>
+  <p>Here are direct links to documentation from sessions at previous conferences and meetups:</p>
 
   {{ range $.Site.Data.talks.talks }}
-    <h4>{{ .title }}</h4>
+    <h3>{{ .title }}</h3>
     <p>
-      Presented at: <a href="{{ .website }}">{{ .conf }} {{ .year }}</a><br>
-      See also: <a href="/{{ .related_slug }}">Related post</a>, <a href="{{ .video_link }}">Video</a>, <a href="{{ .slides_link }}">Slides</a><br>
+      Presented at: <a href="{{ .website }}">{{ .conf }}</a><br>
+      {{ if .notes }}{{ .notes }}<br>{{ end }}
+      See also:
+      {{ if .related_slug }}<a href="/{{ .related_slug }}">Related post</a>{{ end }}{{ if .video_link }}, <a href="{{ .video_link }}">Video</a>{{ end }}{{ if .slides_link }}, <a href="{{ .slides_link }}">Slides</a>{{ end }}<br>
     </p>
   {{ end }}
 

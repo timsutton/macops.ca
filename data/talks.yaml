@@ -1,5 +1,13 @@
 talks:
-  - conf: Mac Admins & Developers UK
+  - conf: Univ of Utah, MacAdmins Meeting April 2017
+    title: "Adobe Creative Cloud: Lost in Translation"
+    related_slug: mac-mgrs-april-2017
+    slides_link: http://www.scl.utah.edu/pdf/mac_mgrs/20170419_mm_files/2017.04.19_mm_adobecc.pdf
+    video_link: https://stream.lib.utah.edu/index.php?c=details&id=12884
+    website: https://apple.lib.utah.edu/april-2017-mac-managers-meeting/
+    year: 2017
+
+  - conf: Mac Admins & Developers UK 2017
     title: "Advanced Mac Software Deployment and Configuration: Just Make It Work!"
     related_slug: macaduk2017
     slides_link: /images/2017/02/MacADUK2017_TimSutton.pdf
@@ -7,10 +15,73 @@ talks:
     website: http://www.macad.uk
     year: 2017
 
-  - conf: MacSysAdmin
+  - conf: MacSysAdmin 2016
     title: "Tools and Process for Streamlining Mac Deployment"
     related_slug: macsysadmin2016
     slides_link: http://docs.macsysadmin.se/2016/pdf/Day4Session1.pdf
     video_link: http://docs.macsysadmin.se/2016/video/Day4Session1.mp4
     website: http://docs.macsysadmin.se/2016/2016doc.html
     year: 2016
+
+  - conf: "MacDevOps:YVR 2016"
+    title: "Jenkins CI for MacDevOps"
+    related_slug: macdevopsyvr-2016
+    slides_link: /images/2016/06/MacDevOpsYVR2016.pdf
+    video_link: http://cdn.macdevops.ca/MDO2016/jenkins/Default.html
+    website: http://macdevops.ca
+    year: 2016
+
+  - conf: "MacDeployment 2016"
+    title: "Managing the User Experience"
+    related_slug: macdeploy2016
+    slides_link: http://macdeployment.ca/sites/macdeployment.ca/files/macdeploy_2016.pdf
+    website: http://macdeployment.ca
+    year: 2016
+
+  - conf: "MacDevOps:YVR 2016"
+    title: "Jenkins CI for MacDevOps"
+    related_slug: macdevopsyvr-2016
+    slides_link: /images/2016/06/MacDevOpsYVR2016.pdf
+    video_link: http://cdn.macdevops.ca/MDO2016/jenkins/Default.html
+    website: http://macdevops.ca
+    year: 2016
+
+  - conf: "MacSysAdmin 2015"
+    title: "MacSysAdmin Tools Smörgåsbord"
+    related_slug: smorgasbord
+    slides_link: http://docs.macsysadmin.se/2015/pdf/Day1Session4.pdf
+    video_link: http://docs.macsysadmin.se/2015/video/Day1Session4.mp4
+    website: http://docs.macsysadmin.se/2015/2015doc.html
+    year: 2015
+
+  - conf: "MacDevOps:YVR 2015"
+    notes: "Also presented at MacDeployment 2015"
+    title: "Python for Mac Admins"
+    related_slug: python-for-mac-admins-session-resources
+    video_link: http://cdn.macdevops.ca/MDO2015/tim/NewStandardPlayer.html?plugin=HTML5
+    website: http://www.macdevops.ca/
+    year: 2015
+
+# TODO: look at using delimit or change the layout so we don't need to rely on commas here:
+# https://github.com/gohugoio/hugo/commit/717f702e2fa32daf50170cdfa2d45b5d2304358b
+  - conf: "Montréal-Python 52"
+    title: "Why Mac Sysadmins Love Python"
+    video_link: https://www.youtube.com/watch?v=G2kSD3MU5uM
+    website: https://montrealpython.org/
+    year: 2015
+
+  - conf: "MacTech 2014"
+    title: "How Do I Contribute? (Using Git and GitHub)"
+    related_slug: how-do-i-contribute-mactech-2014-presentation-links
+    slides_link: http://www.slideshare.net/timothysutton/how-do-i-contribute
+    website: https://conference.mactech.com/
+    year: 2014
+
+  - conf: "MacSysAdmin 2014"
+    notes: Co-presented with Greg Neagle
+    title: "AutoPkg: Crowd-sourcing Mac Packaging and Deployment"
+    related_slug: autopkg-msa2014
+    slides_link: http://docs.macsysadmin.se/2014/pdf/AutoPkg_Crowd-sourcing_Mac_packaging_and_deployment.pdf
+    video_link: http://docs.macsysadmin.se/2014/video/Day2Session5.mp4
+    website: http://docs.macsysadmin.se/2014/2014doc.html
+    year: 2014

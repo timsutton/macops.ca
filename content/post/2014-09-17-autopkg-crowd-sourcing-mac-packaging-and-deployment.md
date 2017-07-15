@@ -1,6 +1,6 @@
 ---
 date: 2014-09-17T13:53:57Z
-slug: autopkg-crowd-sourcing-mac-packaging-and-deployment-2
+slug: autopkg-msa2014
 tags:
 - Conference sessions
 title: 'AutoPkg: Crowd-sourcing Mac packaging and deployment'
