@@ -8,9 +8,10 @@
     <h3>{{ .title }}</h3>
     <p>
       Presented at: <a href="{{ .website }}">{{ .conf }}</a><br>
-      {{ if .notes }}{{ .notes }}<br>{{ end }}
+      {{ if .notes }}{{ .notes | markdownify }}<br>{{ end }}
       See also:
-      {{ if .related_slug }}<a href="/{{ .related_slug }}">Related post</a>{{ end }}{{ if .video_link }}, <a href="{{ .video_link }}">Video</a>{{ end }}{{ if .slides_link }}, <a href="{{ .slides_link }}">Slides</a>{{ end }}<br>
+      <!-- TODO: look at using the template 'delimit' func to do the comma join; currently this only looks nice because every post at least includes a slides link -->
+      {{ if .slides_link }}<a href="{{ .slides_link }}">Slides</a>{{ end }}{{ if .related_slug }}, <a href="/{{ .related_slug }}">Links and resources</a>{{ end }}{{ if .video_link }}, <a href="{{ .video_link }}">Video</a>{{ end }}<br>
     </p>
   {{ end }}
 

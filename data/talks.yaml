@@ -55,19 +55,20 @@ talks:
     year: 2015
 
   - conf: "MacDevOps:YVR 2015"
-    notes: "Also presented at MacDeployment 2015"
+    notes: "Also presented at [MacDeployment 2015](http://macdeployment.ca/resources2015)"
     title: "Python for Mac Admins"
     related_slug: python-for-mac-admins-session-resources
+    slides_link: https://www.slideshare.net/timothysutton/python-for-mac-admins
     video_link: http://cdn.macdevops.ca/MDO2015/tim/NewStandardPlayer.html?plugin=HTML5
     website: http://www.macdevops.ca/
     year: 2015
 
-# TODO: look at using delimit or change the layout so we don't need to rely on commas here:
-# https://github.com/gohugoio/hugo/commit/717f702e2fa32daf50170cdfa2d45b5d2304358b
   - conf: "Montréal-Python 52"
+    notes: Lightning Talk
     title: "Why Mac Sysadmins Love Python"
+    slides_link: /images/2015/03/MP52-MacSysadminsLovePython.pdf
     video_link: https://www.youtube.com/watch?v=G2kSD3MU5uM
-    website: https://montrealpython.org/
+    website: https://montrealpython.org/en/2015/03/mp52/
     year: 2015
 
   - conf: "MacTech 2014"
@@ -78,7 +79,7 @@ talks:
     year: 2014
 
   - conf: "MacSysAdmin 2014"
-    notes: Co-presented with Greg Neagle
+    notes: Co-presented with [Greg Neagle](https://managingosx.wordpress.com/)
     title: "AutoPkg: Crowd-sourcing Mac Packaging and Deployment"
     related_slug: autopkg-msa2014
     slides_link: http://docs.macsysadmin.se/2014/pdf/AutoPkg_Crowd-sourcing_Mac_packaging_and_deployment.pdf
