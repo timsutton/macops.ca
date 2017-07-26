@@ -2,12 +2,14 @@
 date: 2012-12-02T23:51:22Z
 slug: interfacing-with-deploystudio-using-http
 tags:
-- APIs
-- curl
-- DeployStudio
-- PlistBuddy
-- Python
-- vendor metadata
+  - APIs
+  - curl
+  - DeployStudio
+  - PlistBuddy
+  - Python
+  - vendor metadata
+  - macos-deployment
+
 title: Interfacing with DeployStudio using HTTP
 
 wordpress_id: 159

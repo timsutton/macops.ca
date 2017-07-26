@@ -4,9 +4,10 @@ comments: false
 date: 2014-10-17T13:50:39Z
 slug: yosemite-deployment-images-and-beta-feedback-assistant
 tags:
-- Profiles
-- Setup Assistant
-- Yosemite
+  - Profiles
+  - Setup Assistant
+  - Yosemite
+  - macos-deployment
 title: Yosemite deployment images and (Beta) Feedback Assistant
 
 wordpress_id: 756

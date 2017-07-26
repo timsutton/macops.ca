@@ -3,9 +3,10 @@ comments: false
 date: 2014-11-18T19:35:17Z
 slug: diagnostics-prompt-yosemite
 tags:
-- Diagnostics Submission
-- Setup Assistant
-- Yosemite
+  - Diagnostics Submission
+  - Setup Assistant
+  - Yosemite
+  - macos-deployment
 title: More about suppressing diagnostics submissions popups in OS X Yosemite
 
 wordpress_id: 801

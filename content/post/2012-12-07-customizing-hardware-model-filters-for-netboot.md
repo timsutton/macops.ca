@@ -2,9 +2,11 @@
 date: 2012-12-07T02:19:03Z
 slug: customizing-hardware-model-filters-for-netboot
 tags:
-- DeployStudio
-- NetBoot
-- VMware Fusion
+  - DeployStudio
+  - NetBoot
+  - VMware Fusion
+  - macos-deployment
+
 title: Customizing hardware model filters for NetBoot
 
 wordpress_id: 198
