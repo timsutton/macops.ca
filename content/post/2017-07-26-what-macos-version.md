@@ -37,6 +37,13 @@ $ plutil -p '/Applications/Install macOS Sierra.app/Contents/SharedSupport/Insta
 }
 ```
 
+With the version available within the `System Image Info` dictionary key, we can access this very easily using a plist parser of our choosing. Using the built-in `PlistBuddy` tool is one way, despite PlistBuddy's awkward syntax:
+
+```shell
+$ /usr/libexec/PlistBuddy -c 'Print :System\ Image\ Info:version' '/Applications/Install macOS Sierra.app/Contents/SharedSupport/InstallInfo.plist'
+10.12.6
+```
+
 Previously I used to navigate to `Contents/SharedSupport/InstallESD.dmg`, double-click to mount it, then mount `BaseSystem.dmg` to get at the `System/Library/CoreServices/SystemVersion.plist` file within _that_. At this point, I may need to be in a terminal window, because `BaseSystem.dmg` has the hidden file flag, and the Finder may not be showing hidden files unless we've already set `defaults write com.apple.finder -bool AppleShowAllFiles true`, so this is simply easier.
 
 We can quickly glean this without needing to mount anything or access any hidden files. It's possible using just the Finder and Quick Look, even.
