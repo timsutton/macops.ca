@@ -49,3 +49,8 @@ Previously I used to navigate to `Contents/SharedSupport/InstallESD.dmg`, double
 We can quickly glean this without needing to mount anything or access any hidden files. It's possible using just the Finder and Quick Look, even.
 
 Note that in this output we're missing the exact OS build version – `16G29` in this case for 10.12.6. This can be either parsed from the `OSInstall.mpkg` package Distribution file (as [createOSXInstallPkg has been doing](https://github.com/munki/createOSXinstallPkg/blob/ec13f6433f67d80fc55b91608259cd5e326ed3fc/createOSXinstallPkg#L273-L290) for many releases now), or as mentioned above, mounting `BaseSystem.dmg` and reading the `SystemVersion.plist` within. You'll want to always verify build numbers if you're ever working with [hardware-specific macOS installers](https://derflounder.wordpress.com/2012/06/26/downloading-lion-os-installers-for-your-specific-mac-model/).
+
+### Follow-up
+
+* [Greg Neagle](https://managingosx.wordpress.com) pointed out to me that Munki [also uses](https://github.com/munki/munki/blob/e4eaa871b4b3ce40191ed4899a9dac3ac4961533/code/client/munkilib/osinstaller.py#L72-L84) this mechanism to parse the OS version, for a feature which was added to Munki for installing Sierra and up using the [startosinstall]({{< relref "post/2016-04-04-new-adventures-in-automating-os-x-installs-with-startosinstall.md" >}}) tool.
+* In response to my comment about the annoyance of enabling hidden files in the Finder, [Armin Briegel](http://scriptingosx.com/) taught me the extremely useful shortcut of: `Cmd + Shift + .` (period) while the Finder is the foreground application. This toggles showing hidden files in the Finder.
