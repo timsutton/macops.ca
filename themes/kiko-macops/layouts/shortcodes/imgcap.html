@@ -2,7 +2,7 @@
 
 <div class="image-wrapper" >
   <a href="{{ if .Get "url" }}{{ .Get "url" }}{{ else }}{{ .Get "img" }}{{ end }}" title="{{ .Get "title" }}" target="_blank">
-    <img src="{{ .Get "img" }}" alt="{{ .Get "title" }}"/>
+    <img src="{{ .Get "img" }}" alt="{{ .Get "title" }}" {{ if .Get "percent_size" }}height="{{ .Get "percent_size" }}%" width="{{ .Get "percent_size" }}%" {{ end }} />
   </a>
   {{ if .Get "caption" }}
     <p class="image-caption">{{ .Get "caption" }}</p>
