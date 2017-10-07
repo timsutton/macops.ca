@@ -1,4 +1,12 @@
 talks:
+  - conf: MacSysAdmin 2017
+    title: "Apple's Unified Logging for Sysadmins"
+    related_slug: logging
+    slides_link: http://docs.macsysadmin.se/2017/pdf/Day2Session6.pdf
+    video_link: http://docs.macsysadmin.se/2017/video/Day2Session6.mp4
+    website: http://documentation.macsysadmin.se
+    year: 2017
+
   - conf: Univ of Utah, MacAdmins Meeting April 2017
     title: "Adobe Creative Cloud: Lost in Translation"
     related_slug: mac-mgrs-april-2017
@@ -20,7 +28,7 @@ talks:
     related_slug: macsysadmin2016
     slides_link: http://docs.macsysadmin.se/2016/pdf/Day4Session1.pdf
     video_link: http://docs.macsysadmin.se/2016/video/Day4Session1.mp4
-    website: http://docs.macsysadmin.se/2016/2016doc.html
+    website: http://documentation.macsysadmin.se
     year: 2016
 
   - conf: "MacDevOps:YVR 2016"
@@ -51,7 +59,7 @@ talks:
     related_slug: smorgasbord
     slides_link: http://docs.macsysadmin.se/2015/pdf/Day1Session4.pdf
     video_link: http://docs.macsysadmin.se/2015/video/Day1Session4.mp4
-    website: http://docs.macsysadmin.se/2015/2015doc.html
+    website: http://documentation.macsysadmin.se
     year: 2015
 
   - conf: "MacDevOps:YVR 2015"
@@ -84,5 +92,5 @@ talks:
     related_slug: autopkg-msa2014
     slides_link: http://docs.macsysadmin.se/2014/pdf/AutoPkg_Crowd-sourcing_Mac_packaging_and_deployment.pdf
     video_link: http://docs.macsysadmin.se/2014/video/Day2Session5.mp4
-    website: http://docs.macsysadmin.se/2014/2014doc.html
+    website: http://documentation.macsysadmin.se
     year: 2014
