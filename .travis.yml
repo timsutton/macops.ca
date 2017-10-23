@@ -13,5 +13,6 @@ deploy:
   on:
     branch: master
 install: ./scripts/install.sh
+language: generic
 script: ./scripts/build.sh
 sudo: false
