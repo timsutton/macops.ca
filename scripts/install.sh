@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-HUGO_VERSION=0.29
+HUGO_VERSION=0.30.2
 
 curl -Lsf \
     -o hugo.tar.gz \
