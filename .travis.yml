@@ -12,7 +12,6 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-dist: trusty
 install: ./scripts/install.sh
 script: ./scripts/build.sh
 sudo: false
