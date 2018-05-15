@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-HUGO_VERSION=0.30.2
+HUGO_VERSION=0.40.3
 
 platform=Linux
 if [ $(uname) = "Darwin" ]; then
