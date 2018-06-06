@@ -254,7 +254,7 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   font-weight: 300; }
   .masthead-title a {
-    color: #bc4077; }
+    color: #333; }
     .masthead-title a:hover, .masthead-title a:focus {
       text-decoration: none; }
   .masthead-title span {
@@ -265,7 +265,7 @@ tbody tr:nth-child(odd) th {
   font-weight: 600;
   text-transform: uppercase; }
   .masthead-title--small a {
-    color: #bc4077; }
+    color: #333; }
     .masthead-title--small a:hover, .masthead-title--small a:focus {
       text-decoration: none; }
 .masthead .masthead-nav {
@@ -280,7 +280,7 @@ tbody tr:nth-child(odd) th {
     -moz-transition: all .2s ease;
     transition: all .2s ease; }
     .masthead .masthead-nav a:hover, .masthead .masthead-nav a:focus {
-      color: #bc4077;
+      color: #333;
       text-decoration: none; }
     .masthead .masthead-nav a + a {
       margin-left: .25rem; }
