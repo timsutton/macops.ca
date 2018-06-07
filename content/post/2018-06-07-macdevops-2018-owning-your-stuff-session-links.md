@@ -45,3 +45,8 @@ Here are links to my talk today at [MacDevOps 2018](https://mdoyvr.com/), for th
 * [left-pad.io](http://left-pad.io/)
 * [Sam Boyer - So you want to write a package manager](https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527)
 * [FPM](https://github.com/jordansissel/fpm)
+
+## YUL Airport Code
+
+* [Mais pourquoi YUL?](http://proposmontreal.com/index.php/mais-pourquoi-yul/)
+* [Kirkland Nav Canada Waymark](http://www.waymarking.com/waymarks/WMWY12_Montreal_NDB_UL_Kirkland_QC_Canada)
