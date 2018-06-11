@@ -1,4 +1,12 @@
 talks:
+  - conf: MacDevOps:YVR 2018
+    title: "Owning Your Stuff (Escaping from Development Dependency Hell)"
+    related_slug: dependencies
+    slides_link: /images/2018/06/MacDevOpsYVR2018_TimSutton.pdf
+    video_link:
+    website: https://mdoyvr.com/
+    year: 2018
+
   - conf: MacSysAdmin 2017
     title: "Apple's Unified Logging for Sysadmins"
     related_slug: logging
