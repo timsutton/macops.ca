@@ -9,6 +9,13 @@ tags:
 
 Here are links to my talk today at [MacDevOps 2018](https://mdoyvr.com/), for the session: "Owning Your Stuff: Escaping from Development Dependency Hell." Thanks to all attendees, and thanks to Mat X and the entire MacDevOps crew for hosting this conference for a fourth year!
 
+You can also download the slides [here](/images/2018/06/MacDevOpsYVR2018_TimSutton.pdf).
+
+{{< youtube 4hj9I1J43xM >}}
+
+<p>&nbsp;</p>
+
+
 ## Packaging Python tools
 
 * Clayton Burlison - [vendored](https://github.com/clburlison/vendored)

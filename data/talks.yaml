@@ -3,7 +3,7 @@ talks:
     title: "Owning Your Stuff (Escaping from Development Dependency Hell)"
     related_slug: dependencies
     slides_link: /images/2018/06/MacDevOpsYVR2018_TimSutton.pdf
-    video_link:
+    video_link: https://www.youtube.com/watch?v=4hj9I1J43xM
     website: https://mdoyvr.com/
     year: 2018
 
