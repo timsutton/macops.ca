@@ -1,15 +1,25 @@
+/* TODO: convert the standard CSS bits of this to SCSS */
+
 @font-face {
   font-family: Inconsolata;
-  src: url("/fonts/inconsolata.woff2") format("woff2"), url("/fonts/inconsolata.woff") format("woff"); }
+  src:
+    url("/fonts/inconsolata.woff")
+      format('woff'),
+    url("/fonts/inconsolata.woff2")
+      format('woff2');
+}
+
 * {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 html,
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-family: -apple-system, -apple-system-font, Helvetica, sans-serif;
@@ -20,22 +30,29 @@ html {
   font-smoothing: antialiased;
   font-size: 14px;
   font-weight: 300;
-  line-height: 1.5; }
+  line-height: 1.5;
+
   @media (min-width: 38em) {
-    html {
-      font-size: 18px; } }
+    font-size: 18px;
+  }
+}
 
 body {
   color: #212121;
   background-color: #fefefe;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+      -ms-text-size-adjust: 100%;
+}
 
 a {
   color: #268bd2;
-  text-decoration: none; }
-  a:hover, a:focus {
-    text-decoration: underline; }
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -43,52 +60,71 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1;
   color: #333;
-  letter-spacing: -.025rem; }
+  letter-spacing: -.025rem;
+}
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 h2 {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+}
 
 h3 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
 h4, h5, h6 {
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 p {
-  margin: 0 0 1rem; }
+  margin: 0 0 1rem;
+}
 
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
 
 dt {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 dd {
-  margin-bottom: .5rem; }
+  margin-bottom: .5rem;
+}
 
 ul {
   list-style: inside circle;
-  padding-left: 0; }
-  ul li {
-    margin-bottom: .25rem; }
-  ul ul,
-  ul ol {
+  padding-left: 0;
+
+  li {
+    margin-bottom: .25rem;
+  }
+
+  ul,
+  ol {
     margin-top: .25rem;
-    margin-bottom: .5rem; }
+    margin-bottom: .5rem;
+  }
+}
 
 ol {
   list-style: inside decimal;
-  padding-left: 0; }
-  ol li {
-    margin-bottom: .25rem; }
-  ol ul,
-  ol ol {
+  padding-left: 0;
+
+  li {
+    margin-bottom: .25rem;
+  }
+
+  ul,
+  ol {
     margin-top: .25rem;
-    margin-bottom: .5rem; }
+    margin-bottom: .5rem;
+  }
+}
 
 p + h1,
 p + h2,
@@ -99,39 +135,51 @@ ul + h3,
 ol + h1,
 ol + h2,
 ol + h3 {
-  margin-top: 1.5rem; }
+  margin-top: 1.5rem;
+}
 
 hr {
   border: 0;
   border-top: .5px solid #eee;
   border-bottom: .5px solid #eee;
-  margin: 1.5rem auto; }
+  margin: 1.5rem auto;
+}
 
 strong {
   color: #333;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 abbr {
   font-size: 85%;
   font-weight: bold;
   color: #555;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 abbr[title] {
   cursor: help;
-  border-bottom: 1px dotted #e5e5e5; }
+  border-bottom: 1px dotted #e5e5e5;
+}
 
 blockquote {
   padding: 0 0 0 1.5rem;
   margin: 0 2rem 1rem 0;
   color: #666;
-  border-left: .5rem solid #e5e5e5; }
-  blockquote p:last-child {
-    margin-bottom: 0; }
+  border-left: .5rem solid #e5e5e5;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
 
 code,
 pre {
-  font-family: Inconsolata, Menlo, Monaco, "Courier New", monospace; }
+// Maybe we mark Inconsolata if it's included but fall back to Menlo
+// part of the problem is that Inconsolata usually needs larger
+// sizes. So maybe a web font is fine for now...
+  font-family: Inconsolata, Menlo, Monaco, "Courier New", monospace;
+}
 
 code {
   padding: .2em .2em;
@@ -139,7 +187,8 @@ code {
   /*color: #bf616a;*/
   color: #333;
   background-color: #f3f3f3;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
 pre {
   display: block;
@@ -151,59 +200,61 @@ pre {
   white-space: pre;
   /*white-space: pre-wrap;   pre-wrap would be set if you want to force wrapping*/
   word-break: break-all;
+  // word-wrap: break-word;
   background-color: #f9f9f9;
-  overflow-x: auto; }
+  overflow-x: auto;
+}
 
 pre code {
+
   padding: 0;
   font-size: 120%;
   color: inherit;
-  background-color: transparent; }
-
-figure {
-  margin-left: 20px;
-  margin-right: 20px; }
-
-aside header {
-  font-size: 1.2em;
-  margin-bottom: 1.2em;
+  background-color: transparent;
 }
 
-.highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px; }
-
-.highlight pre {
-  margin-bottom: 0; }
+// set margins down from the old 40px
+figure {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .gist .gist-file {
-  font-family: Inconsolata, Menlo, Monaco, "Courier New", monospace !important; }
+  font-family: Inconsolata, Menlo, Monaco, "Courier New", monospace !important;
+}
 
 .gist .markdown-body {
-  padding: 15px; }
+  padding: 15px;
+}
 
 .gist pre {
   padding: 0;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .gist .gist-file .gist-data {
   font-size: .8rem !important;
-  line-height: 1.4; }
+  line-height: 1.4;
+}
 
 .gist code {
   padding: 0;
   color: inherit;
   background-color: transparent;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 img {
   display: block;
   max-width: 100%;
+//  margin: 0 0 1rem;
+  // using margin: 0 auto to auto-center all images
   margin: 0 auto;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
 .image-wrapper {
-  display: table;
+  display:table;
   font-size: 0.9rem;
   /* Padding of 0px might be too tight - it used to be 20px
      It was added to give images more room and not seem too
@@ -212,106 +263,166 @@ img {
   margin: 0 auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-align: center; }
-  .image-wrapper .image-caption {
+
+  text-align: center;
+
+  .image-caption {
     caption-side: bottom;
     display: table-caption;
     margin-top: 0.5em;
-    /*// trying to make the captions auto-wrap in case of a float:left or right
-    // didn't work
-    //    white-space: pre-line;
-    //    word-wrap: break-word;
-    //    display:inline;
-    */ }
+/*// trying to make the captions auto-wrap in case of a float:left or right
+// didn't work
+//    white-space: pre-line;
+//    word-wrap: break-word;
+//    display:inline;
+*/  }
+}
 
 table {
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+}
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5; }
+  border: 1px solid #e5e5e5;
+}
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+}
 
 .lead {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+}
 
 .container {
+  // original 38rem caused pre code to be wrapped to about 70 columns wide
+  // 46rem is closer to 90, which is more reasonable
   max-width: 46rem;
   padding: 2rem 1.5rem;
-  margin-left: auto;
-  margin-right: auto; }
-  @media (min-width: 38rem) {
-    .container {
-      padding: 5rem 1rem; } }
+  margin-left:  auto;
+  margin-right: auto;
 
-.masthead-title {
-  font-weight: 300; }
-  .masthead-title a {
-    color: #333; }
-    .masthead-title a:hover, .masthead-title a:focus {
-      text-decoration: none; }
-  .masthead-title span {
-    color: #ddd; }
-.masthead-title--small {
-  margin-bottom: .75rem;
-  font-size: .75rem;
-  font-weight: 600;
-  text-transform: uppercase; }
-  .masthead-title--small a {
-    color: #333; }
-    .masthead-title--small a:hover, .masthead-title--small a:focus {
-      text-decoration: none; }
-.masthead .masthead-nav {
-  margin-bottom: 5rem;
-  border-bottom: 1px #dddddd solid;
-  padding-bottom: 5px; }
-  .masthead .masthead-nav a {
-    color: #777;
+  @media (min-width: 38rem){
+    padding: 5rem 1rem;
+  }
+}
+
+.masthead {
+
+  &-title {
     font-weight: 300;
-    text-transform: lowercase;
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    transition: all .2s ease; }
-    .masthead .masthead-nav a:hover, .masthead .masthead-nav a:focus {
+
+    a {
       color: #333;
-      text-decoration: none; }
-    .masthead .masthead-nav a + a {
-      margin-left: .25rem; }
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    span {
+      color: #ddd;
+    }
+
+  }
+
+  &-title--small {
+    margin-bottom: .75rem;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    a {
+      color: #333;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .masthead-nav {
+    margin-bottom: 5rem;
+    border-bottom: 1px #dddddd solid;
+    padding-bottom: 5px;
+
+    a {
+      color: #777;
+      font-weight: 300;
+      text-transform: lowercase;
+      -webkit-transition: all .2s ease;
+         -moz-transition: all .2s ease;
+              transition: all .2s ease;
+
+      &:hover,
+      &:focus {
+        color: #333;
+        text-decoration: none;
+      }
+
+      + a {
+        margin-left: .25rem;
+      }
+    }
+  }
+
+}
 
 .content {
   /* Failed experiment with indentation to separate content from header */
-  /*margin-left: 15px;*/ }
+  /*margin-left: 15px;*/
+}
 
-.page-title {
-  margin-bottom: 2rem; }
+.page {
+  &-title {
+    margin-bottom: 2rem;
+  }
+}
 
-.post-title {
-  margin-bottom: .25rem; }
-.post-date {
-  margin-bottom: 2rem;
-  font-size: .75rem;
-  text-transform: uppercase; }
+.post {
+  &-title {
+    margin-bottom: .25rem;
+  }
+  &-date {
+    margin-bottom: 2rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+}
 
-.list-post-title {
-  margin-bottom: .25rem; }
-  .list-post-title a {
-    color: #444; }
-    .list-post-title a:hover, .list-post-title a:focus {
-      text-decoration: none; }
-.list-post-date {
-  margin-bottom: 1.3rem;
-  font-size: .75rem;
-  text-transform: uppercase; }
+.list {
+  &-post-title {
+    margin-bottom: .25rem;
 
-.projects-list a {
-  color: #333; }
+    a {
+      color: #444;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+  &-post-date {
+    margin-bottom: 1.3rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+}
+
+.projects-list {
+  a {
+    color: #333;
+  }
+}
 
 /* Chroma Syntax Highlighting: 'borland' pygments style */
 /* Background */ .chroma { background-color: #f3f3f3 }
@@ -370,6 +481,3 @@ tbody tr:nth-child(odd) th {
 /* GenericSubheading */ .chroma .gu { color: #aaaaaa }
 /* GenericTraceback */ .chroma .gt { color: #aa0000 }
 /* TextWhitespace */ .chroma .w { color: #bbbbbb }
-
-
-/*# sourceMappingURL=style.css.map */
