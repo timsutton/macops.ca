@@ -4,4 +4,6 @@ ID = "macops-ca"
 [build]
   publish = "public/"
   command = "hugo"
+
+[context.production.environment]
   HUGO_VERSION = "0.44"
