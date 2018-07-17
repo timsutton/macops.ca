@@ -1,0 +1,7 @@
+[Settings]
+ID = "macops-ca"
+
+[build]
+  publish = "public/"
+  command = "hugo"
+  HUGO_VERSION = "0.44"
