@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require 'time'
 require 'erb'
+require 'html-proofer'
 require 'rubocop/rake_task'
+require 'time'
 
 TEMPLATE = <<~TMPL
   ---
@@ -35,6 +36,11 @@ RuboCop::RakeTask.new(:lint)
 desc 'Build the site'
 task :build do
   sh 'hugo'
+end
+
+desc 'Run html-proofer tests'
+task :test => [:build] do
+  HTMLProofer.check_directory("./public").run
 end
 
 desc 'Compose a new post, and open it in ST3'
