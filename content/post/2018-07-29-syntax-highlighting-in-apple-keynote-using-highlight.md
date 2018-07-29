@@ -8,7 +8,7 @@ tags:
 
 My presentations often include code examples where having fixed-width fonts and code syntax highlighting is desirable, and Apple Keynote remains my presentation tool of choice for a variety of reasons. I'm still interested to give some other presentation tools a try, but I often find that tools which are Markdown-centric (and seem commonly used for showing code in presentations) lack a lot of the traditional editing, layout, and animation features I use in Keynote. So, I continue to use (and love using) Keynote.
 
-One way to lose an audience's interest is to make it hard for them to read or follow code you show in the slides, so I want to make sure any code is clear and readable. Having syntax highlighting is of a few things one can do to improve code readability, so here's a simple technique I've been using since my [first talk]({{< relref "/post/2014-09-17-autopkg-crowd-sourcing-mac-packaging-and-deployment.md" >}}) for getting syntax-highlighted text into code snippets in Keynote slides, using the `highlight` program.
+One way to lose an audience's interest is to make it hard for them to read or follow code you show in the slides, so I want to make sure any code is clear and readable. Having syntax highlighting one of several few things one can do to improve code readability, so here's a simple technique I've been using since my [first talk]({{< relref "/post/2014-09-17-autopkg-crowd-sourcing-mac-packaging-and-deployment.md" >}}) for getting syntax-highlighted text into code snippets in Keynote slides, using the `highlight` program.
 
 
 You'll need the [highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php) command-line program. I install it using homebrew:
