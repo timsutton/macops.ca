@@ -11,7 +11,7 @@ wordpress_id: 1019
 
 <!-- [![munki_transparent](images/2015/05/munki_transparent.png)](images/2015/05/munki_transparent.png) -->
 
-[Previously]({{< relref "post/2015-05-27-adobe-creative-cloud-licensing-and-deployment.md" >}}) we covered some boring details about Adobe Creative Cloud licensing and how this impacts deploying it to managed clients. We [also covered]({{< relref "post/2015-05-28-adobe-creative-cloud-deployment-packaging-a-license-file.md" >}}) a process and script I came up with that makes it slightly less painful to package up device and serial licenses for distribution to clients. Now, how to we manage these in a software management system? Since I use Munki, I'll use that as a model for how you might manage this license from an administrative standpoint. This is Munki-specific, but the principles should apply elsewhere.
+[Previously]({{< relref "/post/2015-05-27-adobe-creative-cloud-licensing-and-deployment.md" >}}) we covered some boring details about Adobe Creative Cloud licensing and how this impacts deploying it to managed clients. We [also covered]({{< relref "/post/2015-05-28-adobe-creative-cloud-deployment-packaging-a-license-file.md" >}}) a process and script I came up with that makes it slightly less painful to package up device and serial licenses for distribution to clients. Now, how to we manage these in a software management system? Since I use Munki, I'll use that as a model for how you might manage this license from an administrative standpoint. This is Munki-specific, but the principles should apply elsewhere.
 
 
 
@@ -23,7 +23,7 @@ Note that I'll be using the word "pool" a lot here, but those with enterprise li
 
 ### Manifest/pkginfo structure
 
-Here are a couple simple ways that Munki could handle managing the apps and licenses: we could add device file installers as separate items and add these to a manifest alongside the actual applications included in (or a subset of) that device file's corresponding pool. Here's an example of a Munki manifest with some CC 2014 applications, and notice in the last item I've added the licensing package to be installed independently of the applications. These application items are all packages built as Named licensed packages, which means they are effectively unlicensed. See our [first post]({{< relref "post/2015-05-27-adobe-creative-cloud-licensing-and-deployment.md" >}}) for more brain-meltingly boring background information on this.
+Here are a couple simple ways that Munki could handle managing the apps and licenses: we could add device file installers as separate items and add these to a manifest alongside the actual applications included in (or a subset of) that device file's corresponding pool. Here's an example of a Munki manifest with some CC 2014 applications, and notice in the last item I've added the licensing package to be installed independently of the applications. These application items are all packages built as Named licensed packages, which means they are effectively unlicensed. See our [first post]({{< relref "/post/2015-05-27-adobe-creative-cloud-licensing-and-deployment.md" >}}) for more brain-meltingly boring background information on this.
 
 ```xml
 <plist version="1.0">

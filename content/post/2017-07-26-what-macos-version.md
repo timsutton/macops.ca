@@ -52,5 +52,5 @@ Note that in this output we're missing the exact OS build version – `16G29` in
 
 ### Follow-up
 
-* [Greg Neagle](https://managingosx.wordpress.com) pointed out to me that Munki [also uses](https://github.com/munki/munki/blob/e4eaa871b4b3ce40191ed4899a9dac3ac4961533/code/client/munkilib/osinstaller.py#L72-L84) this mechanism to parse the OS version, for a feature which was added to Munki for installing Sierra and up using the [startosinstall]({{< relref "post/2016-04-04-new-adventures-in-automating-os-x-installs-with-startosinstall.md" >}}) tool.
+* [Greg Neagle](https://managingosx.wordpress.com) pointed out to me that Munki [also uses](https://github.com/munki/munki/blob/e4eaa871b4b3ce40191ed4899a9dac3ac4961533/code/client/munkilib/osinstaller.py#L72-L84) this mechanism to parse the OS version, for a feature which was added to Munki for installing Sierra and up using the [startosinstall]({{< relref "/post/2016-04-04-new-adventures-in-automating-os-x-installs-with-startosinstall.md" >}}) tool.
 * In response to my comment about the annoyance of enabling hidden files in the Finder, [Armin Briegel](http://scriptingosx.com/) taught me the extremely useful shortcut of: `Cmd + Shift + .` (period) while the Finder is the foreground application. This toggles showing hidden files in the Finder.

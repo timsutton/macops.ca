@@ -12,7 +12,7 @@ wordpress_id: 586
 <!-- [![ApplicationLoader_128.png](images/2013/09/ApplicationLoader_128.png)](images/2013/09/ApplicationLoader_128.png)
  -->
 
-Xcode 5 was released to the public on September 18 along with iOS 7. If you deploy Xcode and the command-line tools, a few things have changed since 4.x. There've been a couple other posts on this blog in the past about the steps required to successfully deploy [Xcode]({{< relref "post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}) and/or [CLI tools]({{< relref "post/2013-03-15-managing-xcode-cli-tools.md" >}}).
+Xcode 5 was released to the public on September 18 along with iOS 7. If you deploy Xcode and the command-line tools, a few things have changed since 4.x. There've been a couple other posts on this blog in the past about the steps required to successfully deploy [Xcode]({{< relref "/post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}) and/or [CLI tools]({{< relref "/post/2013-03-15-managing-xcode-cli-tools.md" >}}).
 
 In this post we'll look at what's new with Xcode 5.
 
@@ -55,4 +55,4 @@ To get a list of docsets and their actual download URLs in the same format at th
 
 [`https://developer.apple.com/library/downloads/docset-index.dvtdownloadableindex`](https://developer.apple.com/library/downloads/docset-index.dvtdownloadableindex)
 
-These docsets ship as standard packages, however they are similar to those for iOS simulators in that they do not include a target location in the pkg metadata. If you'd want to deploy these packages to their correct location as would be when handled by Xcode, you'd need to repackage them as I've outlined in [this post]({{< relref "post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}).
+These docsets ship as standard packages, however they are similar to those for iOS simulators in that they do not include a target location in the pkg metadata. If you'd want to deploy these packages to their correct location as would be when handled by Xcode, you'd need to repackage them as I've outlined in [this post]({{< relref "/post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}).

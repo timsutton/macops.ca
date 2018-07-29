@@ -9,7 +9,7 @@ tags:
 title: Managing Xcode CLI tools
 ---
 
-In a previous post on [deploying Xcode components]({{< relref "post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}), I showed how the iOS Simulators are defined in a metadata file used by Apple, called `dvtdownloadableindex`, which is a binary plist containing information about all the "Components" available in the Downloads preference area.
+In a previous post on [deploying Xcode components]({{< relref "/post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}), I showed how the iOS Simulators are defined in a metadata file used by Apple, called `dvtdownloadableindex`, which is a binary plist containing information about all the "Components" available in the Downloads preference area.
 
 What's useful about this file is that it describes in a human-readable way what Xcode uses to determine what component updates are available and what's already installed. Up until yesterday, the CLI tools used only SHA-1 sums on specific binaries and libraries to determine whether the package was installed, which was somewhat frustrating to those of us deploying it, because it meant the actual package receipt version numbers were next to useless. Munki, for example, couldn't use these to determine installed status, but one could at least use these to know what files to use to track the installation. Munki can use MD5 checksums to specify a file's contents.
 

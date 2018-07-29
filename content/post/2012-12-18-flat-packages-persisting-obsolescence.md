@@ -61,7 +61,7 @@ pkgbuild --identifier my.package.identifier \
 
 Assuming the package we're upgrading uses the same identifier and is a lower version number, this should do what we want, which is to persist the file at `/usr/local/bin/my_script` after the installation, even if it's not included in the 2.0 version of our package.
 
-Instead of using the `--info` option, we could also build the package without it, then later use pkgutil with the `--expand` option, edit the PackageInfo file manually and finally `--flatten` it as I documented in this [earlier post on iOS Simulators]({{< relref "post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}). This is of course much more work, but is easily automated.
+Instead of using the `--info` option, we could also build the package without it, then later use pkgutil with the `--expand` option, edit the PackageInfo file manually and finally `--flatten` it as I documented in this [earlier post on iOS Simulators]({{< relref "/post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}). This is of course much more work, but is easily automated.
 
 Two asides:
 

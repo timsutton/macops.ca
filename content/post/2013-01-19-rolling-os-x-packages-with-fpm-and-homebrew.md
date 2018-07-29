@@ -25,7 +25,7 @@ OS X packages are almost always used in a very different context than rpms and d
   * pre/postinstall scripts can be ERB-templated with any properties of the package, ie. the version.
   * a package's source can be a simple tarball, and you define the installation prefix.
 
-In addition to what we get with FPM for free, the `osxpkg` package type in FPM also supports a few extras, the more noteworthy ones being: custom [`restart-action`](http://managingosx.wordpress.com/2012/07/05/stupid-tricks-with-pkgbuild/) and [`dont-obsolete`]({{< relref "post/2012-12-18-flat-packages-persisting-obsolescence.md" >}}) values as simple command options rather than requiring manual PackageInfo templates. More options could easily be added as FPM already has built-in methods for templating package metadata files.
+In addition to what we get with FPM for free, the `osxpkg` package type in FPM also supports a few extras, the more noteworthy ones being: custom [`restart-action`](http://managingosx.wordpress.com/2012/07/05/stupid-tricks-with-pkgbuild/) and [`dont-obsolete`]({{< relref "/post/2012-12-18-flat-packages-persisting-obsolescence.md" >}}) values as simple command options rather than requiring manual PackageInfo templates. More options could easily be added as FPM already has built-in methods for templating package metadata files.
 
 
 ## brew pkg
