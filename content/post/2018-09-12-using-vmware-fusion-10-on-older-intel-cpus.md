@@ -13,10 +13,6 @@ VMware Fusion 10 was released in August 2017. One interesting change is that its
   title="VMware Fusion 10"
 >}}
 
-  <!-- caption="New conference location at Chalmers. Photo courtesy of Mats Schwieger." -->
-<!--   percent_size="70"
- -->
-
 ### Unrestricted guest
 
 Earlier versions had a more ambiguous dialog wording which didn't explain the incompatible features, however it seems as though currently they seem to be providing more detailed info, mentioning the "unrestricted guest" capability.
