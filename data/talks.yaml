@@ -1,4 +1,12 @@
 talks:
+  - conf: MacSysAdmin 2018
+    title: "Riding Your Next Mac Admin Wave"
+    related_slug: new-wave
+    slides_link: http://docs.macsysadmin.se/2018/pdf/Day4Session1.pdf
+    video_link: http://docs.macsysadmin.se/2018/video/Day4Session1.mp4
+    website: http://documentation.macsysadmin.se
+    year: 2018
+
   - conf: MacDevOps:YVR 2018
     title: "Owning Your Stuff (Escaping from Development Dependency Hell)"
     related_slug: dependencies
