@@ -2,7 +2,7 @@
 
 
   <div class="content list">
-    {{ range where .Data.Pages "Section" "post" }}
+    {{ range where .Site.RegularPages "Section" "post" }}
     <div class="list-item">
       <h2 class="list-post-title">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>

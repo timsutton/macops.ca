@@ -6,4 +6,4 @@ ID = "macops-ca"
   command = "hugo"
 
 [build.environment]
-  HUGO_VERSION = "0.55.6"
+  HUGO_VERSION = "0.57.2"

@@ -4,7 +4,7 @@
   <div id="article">
       <h2>Posts tagged '{{.Title}}'</h2>
   <ul class="posts">
-      {{ range .Data.Pages }}
+      {{ range .Site.RegularPages }}
       <li>
       	<span>
       		<a href="{{ .RelPermalink }}">{{ .Title }}</a> – <time>{{ .Date.Format "Jan 2, 2006" }}</h4></time>
