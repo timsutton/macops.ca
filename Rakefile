@@ -40,7 +40,7 @@ end
 
 desc 'Run html-proofer tests'
 task :test => [:build] do
-  HTMLProofer.check_directory("./public").run
+  HTMLProofer.check_directory("./public", { empty_alt_ignore: true }).run
 end
 
 desc 'Compose a new post, and open it in ST3'
