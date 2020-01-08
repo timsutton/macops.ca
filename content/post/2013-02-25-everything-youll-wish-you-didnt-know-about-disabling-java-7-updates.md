@@ -65,7 +65,7 @@ There've been a [few](https://groups.google.com/d/topic/munki-dev/aDapiQcwu3o/di
 
 ### The Java-Updater/Helper-Tool Yin-Yang of Doom
 
-Briefly, here are the basic mechanisms of the update-checking system as it is now (here's the [launchd manpage](https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html) for reference):
+Briefly, here are the basic mechanisms of the update-checking system as it is now (here's the [launchd manpage](https://www.unix.com/man-page/osx/5/launchd.plist/) for reference):
 
   * There is a LaunchDaemon (`com.oracle.java.Helper-Tool.plist`) and a LaunchAgent (`com.oracle.java.Java-Updater.plist`) installed in the usual place within `/Library`.
   * They are actually symlinks to the web plugin's installation area, in `/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Resources`.

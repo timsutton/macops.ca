@@ -42,7 +42,7 @@ Installing these additional components has been already [documented](http://derf
 
 Xcode seems to automatically include the most current version of the SDK in its .app bundle, so this is primarily useful if you want to be able to deploy older versions as well. But if you manage Xcode it's a good idea to become familiar with this index file anyway.
 
-I recently discovered via the [Charles web proxy](http://www.charleswebproxy.com) tool what Xcode actually downloads from Apple to populate its list of additional components for download, which is also used to determine how they're installed. It turns out these indexes are also cached locally on the client, so no web traffic sniffing is even needed.
+I recently discovered via the [Charles web proxy](https://www.charlesproxy.com/) tool what Xcode actually downloads from Apple to populate its list of additional components for download, which is also used to determine how they're installed. It turns out these indexes are also cached locally on the client, so no web traffic sniffing is even needed.
 
 Once you've launched Xcode at least once as a user, head over to that user's Xcode cached downloads folder at `~/Library/Caches/com.apple.dt.Xcode/Downloads`.
 

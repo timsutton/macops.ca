@@ -22,7 +22,7 @@ The developer tool binaries actually ship with OS X as shim binaries, which use 
 
 What's really going on when we call these shim binaries?
 
-Behind the scenes, if I run `/usr/bin/git`, this shim binary loads functions in `libxcselect.dylib` that can locate the path to the real binary, depending on how the system has been configured. One part of this process is to check whether this path contains `usr/lib/libxcrun.dylib`, and the [`xcrun`](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcrun.1.html) tool, in which case it will invoke `xcrun` to run the binary.
+Behind the scenes, if I run `/usr/bin/git`, this shim binary loads functions in `libxcselect.dylib` that can locate the path to the real binary, depending on how the system has been configured. One part of this process is to check whether this path contains `usr/lib/libxcrun.dylib`, and the [`xcrun`](https://www.unix.com/man-page/osx/1/xcrun/) tool, in which case it will invoke `xcrun` to run the binary.
 
 The `xcrun` binary seems to be present in developer directories included with Xcode but not the CLI tools, and it's also able to query information about SDKs and their included tools. `libxcrun.dylib` is a hard requirement for a developer dir to be validated, however. Try for yourself: temporarily rename `usr/lib/libxcrun.dylib` within a developer dir like `/Library/Developer/CommandLineTools` and then try to `xcode-select --switch` to it. `xcode-select` will error that it's an invalid directory.
 

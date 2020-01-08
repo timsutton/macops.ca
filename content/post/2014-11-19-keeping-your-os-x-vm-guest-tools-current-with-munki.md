@@ -84,7 +84,7 @@ My testing clients (including my main workstation) all include a manifest called
 
 ### Writing an admin-provided condition
 
-[_Conditions_](https://github.com/munki/munki/wiki/Conditional-Items#admin-provided-conditions) are Munki's term for attributes of the client system that can be derived automatically every time Munki runs, and which it can use to conditionally determine whether certain items are installed. The equivalent in Casper is the [Smart Attribute](http://www.jamfsoftware.com/products/casper-suite/inventory-and-reporting/customized-inventory/), or for Puppet, "facts" derived by the [Facter](http://puppetlabs.com/facter) tool. This is a common pattern among client/server management systems.
+[_Conditions_](https://github.com/munki/munki/wiki/Conditional-Items#admin-provided-conditions) are Munki's term for attributes of the client system that can be derived automatically every time Munki runs, and which it can use to conditionally determine whether certain items are installed. The equivalent in Casper is the [Smart Attribute](http://www.jamfsoftware.com/products/casper-suite/inventory-and-reporting/customized-inventory/), or for Puppet, "facts" derived by the [Facter](https://puppet.com/docs/puppet/latest/facter.html) tool. This is a common pattern among client/server management systems.
 
 Munki expresses the conditions using Apple's [NSPredicate](http://nshipster.com/nspredicate/) syntax, which allows us to define an expression using these conditions and which evaluates to either true or false. If true, whatever installs or removals are defined for that condition will apply to this client. Conditions can also be nested.
 
