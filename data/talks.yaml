@@ -1,4 +1,12 @@
 talks:
+  - conf: MacDevOps:YVR 2020
+    title: "Shipping Python to Mac Clients in 2020"
+    related_slug: macdevopsyvr-2020
+    slides_link: /images/2020/06/MacDevOpsYVR2020_TimSutton.pdf
+    # video_link: http://TBD
+    website: https://mdoyvr.com/
+    year: 2020
+
   - conf: MacSysAdmin 2018
     title: "Riding Your Next Mac Admin Wave"
     related_slug: new-wave
