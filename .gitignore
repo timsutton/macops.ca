@@ -8,3 +8,6 @@ resources
 
 # Ruby
 .rubocop_todo.yml
+
+# HTMLProofer
+tmp/.htmlproofer
