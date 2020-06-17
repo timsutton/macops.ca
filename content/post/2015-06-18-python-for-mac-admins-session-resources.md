@@ -15,4 +15,4 @@ If you'd like to follow along, I'm putting the [code resources up on GitHub](htt
 
 Looking forward to seeing some of you there!
 
-**Update:** MacDevOps published videos of the recorded sessions. You can find mine [here](http://cdn.macdevops.ca/MDO2015/tim/NewStandardPlayer.html?plugin=HTML5).
+**Update:** MacDevOps published videos of the recorded sessions. You can find mine on the [talks]({{< relref "/page/talks.md" >}}) page.
