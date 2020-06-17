@@ -55,14 +55,6 @@ talks:
     website: http://documentation.macsysadmin.se
     year: 2016
 
-  - conf: "MacDevOps:YVR 2016"
-    title: "Jenkins CI for MacDevOps"
-    related_slug: macdevopsyvr-2016
-    slides_link: /images/2016/06/MacDevOpsYVR2016.pdf
-    video_link: http://cdn.macdevops.ca/MDO2016/jenkins/Default.html
-    website: http://macdevops.ca
-    year: 2016
-
   - conf: "MacDeployment 2016"
     title: "Managing the User Experience"
     related_slug: macdeploy2016
