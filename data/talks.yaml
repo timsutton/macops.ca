@@ -3,7 +3,7 @@ talks:
     title: "Shipping Python to Mac Clients in 2020"
     related_slug: macdevopsyvr-2020
     slides_link: /images/2020/06/MacDevOpsYVR2020_TimSutton.pdf
-    # video_link: http://TBD
+    video_link: https://www.youtube.com/watch?v=Y_4I5MSHh4Y
     website: https://mdoyvr.com/
     year: 2020
 
