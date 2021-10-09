@@ -1,5 +1,9 @@
 baseurl: https://macops.ca/
 disqusshortname: macops
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 metadataformat: yaml
 params:
   author:
