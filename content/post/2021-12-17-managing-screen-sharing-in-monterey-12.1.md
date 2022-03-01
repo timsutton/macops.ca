@@ -51,6 +51,12 @@ Sending _only_ the command, without any PPPC configuration profile, is sufficien
 
 Upon reading the [aforementioned KB](https://support.apple.com/en-us/HT209161) it took me some back and forth to understand that the actual command it is hinting at is `EnableRemoteDesktop`, as described in the [developer documentation](https://developer.apple.com/documentation/devicemanagement/enable_remote_desktop). That document also describes exactly what capabilities are enabled by the command, which match what I see from my experiments.
 
+**Update, 2022-03-01:** Since originally publishing this article, it seems that the [above KB](https://support.apple.com/en-us/HT209161) has now been simplified (its last update as of today is January 26, 2022) to remove the details of to grant `PostEvent` permissions in a PPPC payload profile. The article now also explains the simplified (broad) scope of user permissions for Remote Desktop:
+
+{{< imgcap
+  img="/images/2022/03/revised-HT209161.png"
+>}}
+
 
 ## Sending EnableRemoteDesktop from Workspace ONE UEM
 

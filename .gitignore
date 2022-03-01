@@ -5,6 +5,7 @@
 public
 hugo
 resources
+.hugo_build.lock
 
 # Ruby
 .rubocop_todo.yml
