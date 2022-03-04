@@ -40,7 +40,14 @@ end
 
 desc 'Run html-proofer tests'
 task :test => [:build] do
-  HTMLProofer.check_directory("./public", { empty_alt_ignore: true }).run
+  config = {
+    typhoeus: {
+      timeout: 10,
+    },
+    empty_alt_ignore: true,
+    hydra: { max_concurrency: 4 }
+  }
+  HTMLProofer.check_directory("./public", config).run
 end
 
 desc 'Compose a new post, and open it in ST3'
