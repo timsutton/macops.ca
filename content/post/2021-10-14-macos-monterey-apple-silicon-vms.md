@@ -1,6 +1,7 @@
 ---
 title: Apple Silicon macOS Virtual Machines in Monterey's Virtualization Framework
 date: 2021-10-14T01:45:44-04:00
+description: Experiments with the new support in Apple's Virtualization framework for native macOS guest VMs on Apple Silicon.
 slug: macos-monterey-apple-silicon-vms
 tags:
   - virtualization
@@ -8,6 +9,10 @@ tags:
   - apple-silicon
 comments: false
 ---
+
+**Note**: Since this article was originally published, there have been exciting new developments. Check out the follow-up article from June 2022 [here]({{< relref "/post/2021-10-14-macos-monterey-apple-silicon-vms.md" >}}).
+
+<hr>
 
 When Apple released the first macOS 12 Monterey betas in June 2021, some interesting new APIs were added to the [Virtualization framework developer docs](https://developer.apple.com/documentation/virtualization). Here's the new APIs below (at time of writing, where Monterey's latest version is beta 10). In particular, notice the `VZMac*` APIs:
 
