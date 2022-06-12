@@ -12,14 +12,13 @@ body {
   padding: 0; }
 
 html {
-  font-family: -apple-system, -apple-system-font, Helvetica, sans-serif;
+  font-family: SF Pro Text,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: normal;
+  font-weight: 400;
   line-height: 1.5; }
   @media (min-width: 38em) {
     html {
@@ -72,7 +71,7 @@ dd {
 
 ul {
   list-style: inside circle;
-  padding-left: 0; }
+  }
   ul li {
     margin-bottom: .25rem; }
   ul ul,
@@ -285,10 +284,6 @@ tbody tr:nth-child(odd) th {
     .masthead .masthead-nav a + a {
       margin-left: .25rem; }
 
-.content {
-  /* Failed experiment with indentation to separate content from header */
-  /*margin-left: 15px;*/ }
-
 .page-title {
   margin-bottom: 2rem; }
 
@@ -316,11 +311,11 @@ tbody tr:nth-child(odd) th {
 /* Chroma Syntax Highlighting: 'borland' pygments style */
 /* Background */ .chroma { background-color: #f3f3f3 }
 /* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
-/* LineTableTD */ .chroma .lntd { ; vertical-align: top; padding: 0; margin: 0; border: 0; }
-/* LineTable */ .chroma .lntable { ; border-spacing: 0; padding: 0; margin: 0; border: 0; width: 100%; overflow: auto; display: block; }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: 100%; overflow: auto; display: block; }
 /* LineHighlight */ .chroma .hl { background-color: #ffffcc; display: block; width: 100% }
-/* LineNumbersTable */ .chroma .lnt { ; margin-right: 0.4em; padding: 0 0.4em 0 0.4em; display: block; }
-/* LineNumbers */ .chroma .ln { ; margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; display: block; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
 /* Keyword */ .chroma .k { color: #000080; font-weight: bold }
 /* KeywordConstant */ .chroma .kc { color: #000080; font-weight: bold }
 /* KeywordDeclaration */ .chroma .kd { color: #000080; font-weight: bold }
