@@ -1,6 +1,6 @@
 ---
 title: Apple Silicon macOS Guest Virtualization Updates, June 2022
-date: 2022-06-11T10:03:24-05:00
+date: 2022-06-12T10:03:24-05:00
 slug: virtualization-updates-2022-06
 tags:
   - virtualization
