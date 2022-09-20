@@ -2,12 +2,13 @@
 date: 2012-11-19T13:45:19Z
 slug: xcode-deployment-the-dvtdownloadableindex-and-ios-simulators
 tags:
+- Xcode
+- simulators
 - deployment
 - flat packages
 - iOS SDK
 - pkgutil
 - vendor metadata
-- Xcode
 title: 'Xcode deployment: The dvtdownloadableindex and iOS Simulators/SDKs'
 
 wordpress_id: 96
