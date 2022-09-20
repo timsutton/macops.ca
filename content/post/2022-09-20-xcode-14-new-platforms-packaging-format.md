@@ -6,6 +6,7 @@ tags:
   - Xcode
   - simulators
   - developer-tools
+comments: false
 ---
 
 Nearly *ten years ago*, I [published a post]({{< relref "/post/2012-11-19-xcode-deployment-the-dvtdownloadableindex-and-ios-simulators.md" >}}) about how to download and deploy the iOS simulator runtimes independently of the Xcode app bundle. This is certainly the oldest post on the blog that I could say was still useful and accurate!
