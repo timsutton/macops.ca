@@ -151,7 +151,7 @@ There is an additional verification step that will take place after the this `ru
     Size: 5.8G
 ```
 
-..you'll the system policy security evaluation process busy for a short while:
+..you'll see the system policy security evaluation process spinning for a short while:
 
 {{< imgcap
   img="/images/2022/09/ios16-verify-cpu-fs8.png"
