@@ -189,7 +189,8 @@ https://developerservices2.apple.com/services/download?path=/Developer_Tools/tvO
 
 A nice side effect of this change, is that this ADC auth cookie can now be obtained and used to download Xcode itself, meaning that for the first time ever, it is now possible to download Xcode .xip files from ADC *without needing to authenticate*! This is handy for the use-case of setting up automation to fetch and archive Xcode installers on internal servers, which was often trickier to do because of Apple's general 2FA requirement on Apple IDs.
 
-
 ## Takeaways
 
 Overall, the new DMG-based distribution is a win for its shrinking down Xcode's default install size, speeding up the installation of new runtimes, and improving the ergonomics for managing them. We didn't discuss the security improvement in the tools here either, but it stands to reason that up-front signature verification and Gatekeeper assessment of the runtimes is also a very welcome addition.
+
+**Update:** Since originally publishing this post, I wrote a small utility that can be used to list and download available simulators, using the details described in this post. It's called speedwagon, and you can find it (along with binaries for multiple platforms/architectures) [here on GitHub](https://github.com/timsutton/speedwagon).
