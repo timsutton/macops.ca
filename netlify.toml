@@ -6,4 +6,5 @@ ID = "macops-ca"
   command = "hugo"
 
 [build.environment]
+  GO_VERSION = "1.20.4"
   HUGO_VERSION = "0.112.7"
