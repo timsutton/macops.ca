@@ -1,4 +1,12 @@
 talks:
+  - conf: MacDevOps:YVR 2023
+    title: "Stories and learnings from macOS Continuous Integration at Scale"
+    related_slug: macdevopsyvr-2023
+    # slides_link: TBD
+    # video_link: TBD
+    website: https://mdoyvr.com/
+    year: 2023
+
   - conf: MacDevOps:YVR 2020
     title: "Shipping Python to Mac Clients in 2020"
     related_slug: macdevopsyvr-2020
