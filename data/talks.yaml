@@ -2,8 +2,8 @@ talks:
   - conf: MacDevOps:YVR 2023
     title: "Stories and learnings from macOS Continuous Integration at Scale"
     related_slug: macdevopsyvr-2023
-    # slides_link: TBD
-    # video_link: TBD
+    slides_link: /images/2023/06/MacDevOpsYVR2023_TimSutton.pdf
+    video_link: https://www.youtube.com/watch?v=i-pQwwCZyxs
     website: https://mdoyvr.com/
     year: 2023
 
