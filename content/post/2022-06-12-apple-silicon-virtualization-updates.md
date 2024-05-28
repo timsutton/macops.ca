@@ -42,7 +42,7 @@ But, we have seen many *other* products and open source projects adopting this f
 In late October, [Veertu](https://veertu.com/) announced a preview of their 3.0 version of Anka, their hypervisor and CI/CD tooling product, which uses the new framework on Apple Silicon, and several months later the 3.0 version reached a GA release. It already offers an impressive amount of parity with the existing featureset of the Intel-based version:
 
 * The CLI interface to create, query, and otherwise manage the lifecycle of these VMs works the same. Creating a new VM from an archived copy of the macOS IPSW is as straightforward as: `ankacreate -a ~/UniversalMac_12.3_21E230_Restore.ipsw macos-12-3`
-* It supports their [Packer builder plugin](https://github.com/veertuincpacker-plugin-veertu-anka) for creating new images using Packer
+* It supports their [Packer builder plugin](https://github.com/veertuinc/packer-plugin-veertu-anka) for creating new images using Packer
 * It includes a guest tools package which prepares the VM for functionality enabling the rest ofAnka's intended CI/CD use-case. It:
   * Enables the functionality to copy files in and out of the VM, to enable easy automated provisioning of new VMs from a source repo
   * Adds clipboard sync to/from the host, useful when doing anything interactively with the VM via the Anka GUI app
