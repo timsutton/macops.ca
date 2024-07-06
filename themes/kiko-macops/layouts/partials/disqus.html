@@ -5,7 +5,7 @@ them globally, remove the DisqusShortname site config item -->
 
 {{ $comments_enabled := .Param "comments" | default true }}
 
-{{ if .Site.DisqusShortname }}
+{{ if .Site.Config.Services.Disqus.Shortname }}
   {{ if $comments_enabled }}
 
   <hr>
@@ -19,7 +19,7 @@ them globally, remove the DisqusShortname site config item -->
           return;
 
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      var disqus_shortname = '{{ .Site.DisqusShortname }}';
+      var disqus_shortname = '{{ .Site.Config.Services.Disqus.Shortname }}';
       dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
