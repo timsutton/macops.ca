@@ -2,7 +2,7 @@ talks:
   - conf: AWS re:Invent 2024
     title: "Modernize Apple platform development with AWS and EC2 Mac"
     related_slug: reinvent-2024
-    slides_link: "https://aws.amazon.com/events/events-content/?awsf.filter-series=event-series%23reinvent&awsf.filter-year=year%232024&awsf.filter-session-type=*all&awsf.filter-level=*all&awsf.filter-topic=*all&awsf.filter-area-of-interest=*all&awsf.filter-industry=*all&awsf.filter-role=*all&awsf.filter-language=*all"
+    slides_link: /images/2024/12/CMP210_Modernize-Apple-platform-development-with-AWS-and-EC2-Mac.pdf
     video_link: https://www.youtube.com/watch?v=pBvekh31xkA
     website: https://reinvent.awsevents.com/
     year: 2024
