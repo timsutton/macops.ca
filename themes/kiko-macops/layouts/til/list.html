@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+<div class="content list">
+  <h1 class="list-title">{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages.ByDate.Reverse }}
+  <div class="list-item">
+    <h2 class="list-post-title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    <div class="list-post-date">
+      <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ partial "footer.html" . }}

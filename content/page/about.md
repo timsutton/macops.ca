@@ -1,6 +1,7 @@
 ---
 title: About
 slug: about
+weight: 10
 ---
 
 My name is Tim Sutton - Mac Operations is a technical blog dedicated to topics in systems administration, mostly in the context of macOS. Frequent topics include installers and packaging, automation tooling, software and OS deployment, Xcode and Apple's command line tools, Python, [Munki](https://github.com/munki/munki).

@@ -1,6 +1,7 @@
 ---
 title: Links
 slug: links
+weight: 30
 ---
 
 This is a somewhat-current list of other great resources for Mac Admin topics:
