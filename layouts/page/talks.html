@@ -4,7 +4,7 @@
 
   <p>Here are direct links to documentation from sessions at previous conferences and meetups:</p>
 
-  {{ range $.Site.Data.talks.talks }}
+  {{ range hugo.Data.talks.talks }}
     <h3>{{ .title }}</h3>
     <p>
       Presented at: <a href="{{ .website }}">{{ .conf }}</a><br>
