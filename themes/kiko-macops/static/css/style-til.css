@@ -1,0 +1,55 @@
+/* TIL-specific styles */
+.section-til .til-entries .list-item {
+  display: flex !important;
+  align-items: baseline !important;
+  margin-bottom: 0.2rem !important;
+  line-height: 1.0 !important;
+}
+
+.section-til .list-post-title {
+  font-size: 0.9rem !important;
+  margin: 0 !important;
+  /* removed flex: 1 */
+}
+
+.section-til .list-post-date {
+  font-size: 0.9rem;
+  color: #999;
+  margin: 0;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  white-space: nowrap;
+  display: inline-block;
+  width: 200px;
+  /* Fixed width for the date column */
+}
+
+.section-til .list-post-title a {
+  color: #08558b;
+}
+
+/* Add more specific selectors that match the HTML structure */
+.content.list.section-til .til-entries .list-item {
+  display: flex !important;
+  align-items: baseline !important;
+  margin-bottom: 0.2rem !important;
+  line-height: 1.0 !important;
+}
+
+.content.list.section-til .til-entries .list-post-title {
+  font-size: 0.9rem !important;
+  margin: 0 !important;
+}
+
+.content.list.section-til .til-entries .list-post-date {
+  font-size: 0.9rem !important;
+  color: #999 !important;
+  margin: 0 !important;
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+  width: 200px !important;
+}
+
+.content.list.section-til .til-entries .list-post-title a {
+  color: #08558b !important;
+}
